@@ -1,4 +1,4 @@
-﻿Log file open, 09/21/19 13:08:59
+﻿Log file open, 09/25/19 22:13:55
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: MyProject2
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.447337
+LogStats: Stats thread started at 0.622009
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -120,7 +120,7 @@ LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
-LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
@@ -156,831 +156,637 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:044][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.09.21-03.09.00:044][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.09.21-03.09.00:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:045][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:055][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.21-03.09.00:055][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.21-03.09.00:056][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.21-03.09.00:057][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.21-03.09.00:058][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.21-03.09.00:059][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.21-03.09.00:059][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.21-03.09.00:059][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.21-03.09.00:059][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.21-03.09.00:059][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:059][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.21-03.09.00:059][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.21-03.09.00:059][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.21-03.09.00:059][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.21-03.09.00:091][  0]LogHAL: Display: Platform has ~ 16 GB [17016786944 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.09.21-03.09.00:091][  0]LogInit: Going up to parent DeviceProfile []
-[2019.09.21-03.09.00:091][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.21-03.09.00:091][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.21-03.09.00:091][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.21-03.09.00:091][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.21-03.09.00:092][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.21-03.09.00:093][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
-[2019.09.21-03.09.00:093][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.21-03.09.00:094][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.21-03.09.00:094][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.09.21-03.09.00:094][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.09.21-03.09.00:094][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.09.21-03.09.00:094][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
-[2019.09.21-03.09.00:094][  0]LogInit: Computer: MSI
-[2019.09.21-03.09.00:094][  0]LogInit: User: ellan
-[2019.09.21-03.09.00:094][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.09.21-03.09.00:094][  0]LogInit: High frequency timer resolution =2.156250 MHz
-[2019.09.21-03.09.00:095][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.09.21-03.09.00:095][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.21-03.09.00:095][  0]LogMemory: Process Physical Memory: 96.85 MB used, 96.85 MB peak
-[2019.09.21-03.09.00:095][  0]LogMemory: Process Virtual Memory: 90.07 MB used, 90.07 MB peak
-[2019.09.21-03.09.00:095][  0]LogMemory: Physical Memory: 6107.32 MB used,  10121.15 MB free, 16228.47 MB total
-[2019.09.21-03.09.00:095][  0]LogMemory: Virtual Memory: 4672.63 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.09.21-03.09.00:317][  0]LogInit: Using OS detected language (en-US).
-[2019.09.21-03.09.00:317][  0]LogInit: Using OS detected locale (en-AU).
-[2019.09.21-03.09.00:318][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.09.21-03.09.00:468][  0]LogInit: Setting process to per monitor DPI aware
-[2019.09.21-03.09.00:514][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.09.21-03.09.00:514][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.09.21-03.09.00:816][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.21-03.09.00:816][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.21-03.09.00:995][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2019.09.21-03.09.00:995][  0]LogD3D11RHI:       5980/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.09.21-03.09.01:030][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.09.21-03.09.01:030][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.09.21-03.09.01:036][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.21-03.09.01:036][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.21-03.09.01:036][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.21-03.09.01:112][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.21-03.09.01:112][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
-[2019.09.21-03.09.01:112][  0]LogWindows: EnumDisplayDevices:
-[2019.09.21-03.09.01:112][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.09.21-03.09.01:113][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.09.21-03.09.01:113][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.09.21-03.09.01:113][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.09.21-03.09.01:114][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.09.21-03.09.01:114][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.09.21-03.09.01:114][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.09.21-03.09.01:115][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.09.21-03.09.01:115][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2019.09.21-03.09.01:115][  0]LogD3D11RHI:   Driver Version: 417.49 (internal:25.21.14.1749, unified:417.49)
-[2019.09.21-03.09.01:115][  0]LogD3D11RHI:      Driver Date: 12-17-2018
-[2019.09.21-03.09.01:115][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2019.09.21-03.09.01:175][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.21-03.09.01:179][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.09.21-03.09.01:180][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.09.21-03.09.01:180][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.09.21-03.09.01:194][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.09.21-03.09.01:639][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.09.21-03.09.01:654][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.09.21-03.09.01:670][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.09.21-03.09.01:685][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.09.21-03.09.01:700][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.09.21-03.09.01:715][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.09.21-03.09.01:729][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.09.21-03.09.01:746][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.09.21-03.09.01:756][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.09.21-03.09.01:838][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.09.21-03.09.01:840][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.09.21-03.09.01:900][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.09.21-03.09.01:900][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.09.21-03.09.01:955][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.09.21-03.09.01:955][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.09.21-03.09.01:969][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.09.21-03.09.01:981][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.09.21-03.09.01:993][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.09.21-03.09.02:006][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.09.21-03.09.02:049][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.09.21-03.09.02:049][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.09.21-03.09.02:049][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.21-03.09.02:060][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.09.21-03.09.02:122][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../Documents/GitHub/3D-Platformer/MyProject2/Intermediate/Shaders/WorkingDirectory/9400/).
-[2019.09.21-03.09.02:122][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ellan/AppData/Local/Temp/UnrealShaderWorkingDir/2C2D9986471032F3B3A8EDB97E42D2FC/'.
-[2019.09.21-03.09.02:125][  0]LogXGEController: Cleaning working directory: C:/Users/ellan/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.09.21-03.09.02:125][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.09.21-03.09.02:125][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.09.21-03.09.02:125][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.09.21-03.09.02:673][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.21-03.09.02:750][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.09.21-03.09.02:750][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.09.21-03.09.02:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/3D-Platformer/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.21-03.09.02:751][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.21-03.09.02:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/GitHub/3D-Platformer/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.21-03.09.02:751][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.21-03.09.02:781][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.21-03.09.02:781][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.21-03.09.02:781][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.09.21-03.09.02:794][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ellan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.21-03.09.02:794][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.09.21-03.09.02:794][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.09.21-03.09.02:852][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.21-03.09.02:855][  0]LogSlate: Using FreeType 2.6.0
-[2019.09.21-03.09.02:856][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.21-03.09.02:964][  0]LogAssetRegistry: FAssetRegistry took 0.0338 seconds to start up
-[2019.09.21-03.09.03:310][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.21-03.09.03:447][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.21-03.09.03:447][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.09.21-03.09.03:447][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.09.21-03.09.03:447][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.09.21-03.09.03:447][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.09.21-03.09.03:461][  0]LogNetVersion: MyProject2 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4139302413)
-[2019.09.21-03.09.03:907][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.047214 seconds
-[2019.09.21-03.09.03:913][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.09.21-03.09.03:913][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.09.21-03.09.03:913][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.21-03.09.04:796][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.21-03.09.04:810][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.21-03.09.04:931][  0]SourceControl: Source control is disabled
-[2019.09.21-03.09.04:931][  0]SourceControl: Source control is disabled
-[2019.09.21-03.09.04:933][  0]SourceControl: Source control is disabled
-[2019.09.21-03.09.04:934][  0]SourceControl: Source control is disabled
-[2019.09.21-03.09.04:943][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.09.21-03.09.04:944][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.09.21-03.09.05:028][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.21-03.09.05:419][  0]LogOcInput: OculusInput pre-init called
-[2019.09.21-03.09.06:427][  0]LogEngine: Initializing Engine...
-[2019.09.21-03.09.06:429][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.21-03.09.06:433][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2019.09.21-03.09.06:834][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.09.21-03.09.06:871][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.21-03.09.06:891][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.09.21-03.09.07:418][  0]LogInit: FAudioDevice initialized.
-[2019.09.21-03.09.07:418][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.09.21-03.09.07:569][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.09.21-03.09.07:598][  0]LogInit: Texture streaming: Enabled
-[2019.09.21-03.09.07:636][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.21-03.09.07:636][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FB9581BC-4CDB-E0E4-1710-1E82F2C01845}
-[2019.09.21-03.09.07:661][  0]LogInit: Transaction tracking system initialized
-[2019.09.21-03.09.07:695][  0]BlueprintLog: New page: Editor Load
-[2019.09.21-03.09.07:805][  0]LocalizationService: Localization service is disabled
-[2019.09.21-03.09.08:041][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.09.21-03.09.08:041][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.09.21-03.09.08:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Content/' took 0.02s
-[2019.09.21-03.09.08:250][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.21-03.09.08:250][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.21-03.09.08:560][  0]SourceControl: Source control is disabled
-[2019.09.21-03.09.08:560][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.21-03.09.08:560][  0]LightingResults: New page: Lighting Build
-[2019.09.21-03.09.08:566][  0]MapCheck: New page: Map Check
-[2019.09.21-03.09.08:566][  0]LightingResults: New page: Lighting Build
-[2019.09.21-03.09.08:599][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2019.09.21-03.09.08:861][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Body'
-[2019.09.21-03.09.08:861][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Body' while loading NULL.
-[2019.09.21-03.09.08:861][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Exclamation'
-[2019.09.21-03.09.08:862][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Exclamation' while loading NULL.
-[2019.09.21-03.09.08:862][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Body'
-[2019.09.21-03.09.08:863][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Body' while loading NULL.
-[2019.09.21-03.09.08:863][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Exclamation'
-[2019.09.21-03.09.08:863][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Exclamation' while loading NULL.
-[2019.09.21-03.09.08:880][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Exclamation'
-[2019.09.21-03.09.08:880][  0]LoadErrors: Failed to load /Game/__MyContent/Meshes/Marker/Exclamation.Exclamation Referenced by Marker
-[2019.09.21-03.09.08:880][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Exclamation' while loading NULL.
-[2019.09.21-03.09.08:881][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Body'
-[2019.09.21-03.09.08:881][  0]LoadErrors: Failed to load /Game/__MyContent/Meshes/Marker/Body.Body Referenced by Marker
-[2019.09.21-03.09.08:881][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Body' while loading NULL.
-[2019.09.21-03.09.08:882][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Exclamation'
-[2019.09.21-03.09.08:882][  0]LoadErrors: Failed to load /Game/__MyContent/Meshes/Marker/Exclamation.Exclamation Referenced by Marker
-[2019.09.21-03.09.08:882][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Exclamation' while loading NULL.
-[2019.09.21-03.09.08:882][  0]LogLinker: Warning: Can't find file '/Game/__MyContent/Meshes/Marker/Body'
-[2019.09.21-03.09.08:882][  0]LoadErrors: Failed to load /Game/__MyContent/Meshes/Marker/Body.Body Referenced by Marker
-[2019.09.21-03.09.08:883][  0]LogLinker: Warning: Can't find file for asset '/Game/__MyContent/Meshes/Marker/Body' while loading NULL.
-[2019.09.21-03.09.09:046][  0]LogAIModule: Creating AISystem for world Level_1
-[2019.09.21-03.09.09:052][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.21-03.09.09:088][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
-[2019.09.21-03.09.09:089][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.21-03.09.09:089][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.183ms to complete.
-[2019.09.21-03.09.09:089][  0]LogFileHelpers: Loading map 'Level_1' took 0.529
-[2019.09.21-03.09.09:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.09.09:323][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.09.09:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.09.09:354][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.09.09:371][  0]LogCollectionManager: Loaded 0 collections in 0.005512 seconds
-[2019.09.21-03.09.09:428][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Collections/' took 0.01s
-[2019.09.21-03.09.09:428][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Content/Developers/ellan/Collections/' took 0.01s
-[2019.09.21-03.09.09:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Content/Collections/' took 0.01s
-[2019.09.21-03.09.09:429][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.09.21-03.09.09:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0283 seconds. Added 2732 classes and 659 folders.
-[2019.09.21-03.09.09:490][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.09.21-03.09.09:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:502][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:504][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:506][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:508][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:510][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:512][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:514][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:515][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:516][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:517][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:519][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:520][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:521][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:523][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:524][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:525][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:526][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:528][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:529][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:531][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:532][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.21-03.09.09:648][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.09.21-03.09.09:661][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.09.21-03.09.09:829][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.09.21-03.09.09:829][  0]LogLoad: (Engine Initialization) Total time: 12.89 seconds
-[2019.09.21-03.09.09:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.21-03.09.09:851][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.09.21-03.09.09:900][  0]LogAssetRegistry: Asset discovery search completed in 6.9585 seconds
-[2019.09.21-03.09.09:903][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.09.21-03.09.09:903][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
-[2019.09.21-03.09.09:904][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.21-03.09.09:915][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.21-03.09.10:071][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.21-03.09.10:074][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.21-03.09.10:078][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.21-03.09.10:242][  0]LogRenderer: Reallocating scene render targets to support 372x320 Format 10 NumSamples 1 (Frame:1).
-[2019.09.21-03.09.10:242][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.21-03.09.13:734][155]LogSlate: Window 'Message Log' being destroyed
-[2019.09.21-03.09.13:741][155]LogSlate: Window 'Message Log' being destroyed
-[2019.09.21-03.09.18:350][380]LogRenderer: Reallocating scene render targets to support 380x328 Format 10 NumSamples 1 (Frame:378).
-[2019.09.21-03.09.18:454][380]LogRenderer: Reallocating scene render targets to support 392x348 Format 10 NumSamples 1 (Frame:379).
-[2019.09.21-03.09.18:575][380]LogRenderer: Reallocating scene render targets to support 396x364 Format 10 NumSamples 1 (Frame:380).
-[2019.09.21-03.09.18:689][380]LogRenderer: Reallocating scene render targets to support 396x380 Format 10 NumSamples 1 (Frame:381).
-[2019.09.21-03.09.58:003][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-03.10.03:777][852]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.21-03.10.03:790][852]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MyWayPoint.BP_MyWayPoint
-[2019.09.21-03.10.04:070][852]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
-[2019.09.21-03.10.04:903][852]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.09.21-03.10.04:946][853]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.09.21-03.10.06:986][921]LogSlate: Window 'BP_MyWayPoint' being destroyed
-[2019.09.21-03.17.26:518][545]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
-[2019.09.21-03.17.27:722][545]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.09.21-03.19.10:227][323]LogUObjectHash: Compacting FUObjectHashTables data took  12.50ms
-[2019.09.21-03.19.10:733][323]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto1A2947CDC42D5164060C16D99BDAFC6F6.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto1.umap'
-[2019.09.21-03.19.10:742][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.679
-[2019.09.21-03.19.10:742][323]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.679
-[2019.09.21-03.19.10:753][323]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyWayPoint] ([1] browsable assets)...
-[2019.09.21-03.19.10:753][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyWayPoint]
-[2019.09.21-03.19.10:824][323]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint_Auto14EE89D04483978B4DF2F4EBC3F60BD5C.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyWayPoint_Auto1.uasset'
-[2019.09.21-03.19.10:830][323]LogFileHelpers: Auto-saving content packages took 0.077
-[2019.09.21-03.20.01:256][849]LogSlate: Window 'Editor Preferences' being destroyed
-[2019.09.21-03.20.01:267][849]LogSlate: Window 'Editor Preferences' being destroyed
-[2019.09.21-03.20.15:422][416]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.20.15:678][416]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
-[2019.09.21-03.23.04:198][685]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.23.04:480][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
-[2019.09.21-03.23.04:930][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.23.04:959][706]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPointACB361C14A46CA63C758A7961405ACBF.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.24.12:697][723]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.09.21-03.26.10:677][109]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.26.10:685][109]LogClass: Warning: Type mismatch in Current Waypoint Position of BP_MyWayPoint_C - Previous (BoolProperty) Current(StructProperty) for package:  FObjectReader
-[2019.09.21-03.26.10:685][109]LogClass: Warning: Type mismatch in Next Waypoint Position of BP_MyWayPoint_C - Previous (BoolProperty) Current(StructProperty) for package:  FObjectReader
-[2019.09.21-03.26.10:685][109]LogClass: Warning: Type mismatch in Current Waypoint Intex of BP_MyWayPoint_C - Previous (BoolProperty) Current(IntProperty) for package:  FObjectReader
-[2019.09.21-03.26.10:685][109]LogBlueprint: Warning: [Compiler BP_MyWayPoint] Can't parse default value 'False' for  . Property: Next Waypoint Index.
-[2019.09.21-03.26.10:685][109]LogBlueprint: Warning: [Compiler BP_MyWayPoint] Can't parse default value 'False' for  . Property: Current Waypoint Intex.
-[2019.09.21-03.26.10:685][109]LogBlueprint: Warning: [Compiler BP_MyWayPoint] Can't parse default value 'False' for  . Property: Next Waypoint Position.
-[2019.09.21-03.26.10:686][109]LogBlueprint: Warning: [Compiler BP_MyWayPoint] Can't parse default value 'False' for  . Property: Current Waypoint Position.
-[2019.09.21-03.26.10:892][109]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
-[2019.09.21-03.26.10:901][109]LogBlueprint: Warning: [Compiler BP_MyWayPoint] [1033.97] Compile of BP_MyWayPoint successful, but with 4 Warning(s) [in 223 ms] (/Game/__MyContent/Blueprints/BP_MyWayPoint.BP_MyWayPoint)
-[2019.09.21-03.26.11:416][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.26.11:446][133]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint5A99B3DA411A99ECBDC4E98003ABB389.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.26.14:824][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.26.14:851][302]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint21198F51407DB3363F361C9E4D1F5F53.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.28.59:610][965]LogUObjectHash: Compacting FUObjectHashTables data took   7.57ms
-[2019.09.21-03.29.00:167][965]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto2EAACADEF491B7F59D630FF9FFBCCC30A.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto2.umap'
-[2019.09.21-03.29.00:180][965]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.662
-[2019.09.21-03.29.00:180][965]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.662
-[2019.09.21-03.29.00:198][965]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyWayPoint] ([1] browsable assets)...
-[2019.09.21-03.29.00:198][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyWayPoint]
-[2019.09.21-03.29.00:295][965]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint_Auto20032099940F1E9232A97DFACB9C5C78A.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyWayPoint_Auto2.uasset'
-[2019.09.21-03.29.00:300][965]LogFileHelpers: Auto-saving content packages took 0.104
-[2019.09.21-03.31.28:498][336]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.31.28:717][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
-[2019.09.21-03.31.29:592][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.31.29:628][378]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPointA03715C546838BB4EA04B5B03ACDCFB7.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.32.31:842][570]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.32.32:049][570]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
-[2019.09.21-03.32.32:512][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.32.32:547][595]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint5C97B4E8496FA75ED357018F4FD80AA0.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.34.37:609][439]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.34.37:936][439]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
-[2019.09.21-03.34.38:320][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.34.38:360][458]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPointE7DF63794E5C128C03888DB6789E16BE.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.34.55:535][417]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.34.55:907][417]LogUObjectHash: Compacting FUObjectHashTables data took   7.61ms
-[2019.09.21-03.34.56:331][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.34.56:367][438]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint2D50A845420CF13712F47A874756B0E4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.36.28:538][293]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
-[2019.09.21-03.36.28:818][293]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto3B64B2FF44454A32E48F0EC9AAC2F9F6E.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto3.umap'
-[2019.09.21-03.36.28:825][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.399
-[2019.09.21-03.36.28:825][293]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.399
-[2019.09.21-03.36.28:831][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyWayPoint] ([1] browsable assets)...
-[2019.09.21-03.36.28:831][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyWayPoint]
-[2019.09.21-03.36.28:871][293]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint_Auto3B281F3C2409DC5CDCD958ABEFCC2042E.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyWayPoint_Auto3.uasset'
-[2019.09.21-03.36.28:874][293]LogFileHelpers: Auto-saving content packages took 0.043
-[2019.09.21-03.38.06:388][335]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.38.06:706][335]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
-[2019.09.21-03.38.07:088][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.38.07:136][354]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPointE5D143D64DD66A40FD4D738C1DA328C5.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.41.19:463][507]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
-[2019.09.21-03.41.19:679][507]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto49F8D93A24D1D1D2CCB192FA5DA064100.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto4.umap'
-[2019.09.21-03.41.19:683][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.265
-[2019.09.21-03.41.19:683][507]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.265
-[2019.09.21-03.41.19:688][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyWayPoint] ([1] browsable assets)...
-[2019.09.21-03.41.19:689][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyWayPoint]
-[2019.09.21-03.41.19:730][507]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint_Auto47D2F662D4E568153D373C485C5FD5FC5.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyWayPoint_Auto4.uasset'
-[2019.09.21-03.41.19:731][507]LogFileHelpers: Auto-saving content packages took 0.043
-[2019.09.21-03.44.35:159][530]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.44.35:369][530]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
-[2019.09.21-03.44.35:753][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.44.35:802][569]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint6300557944F63845B7B15D98C8445C73.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.52.56:670][559]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.52.56:897][559]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
-[2019.09.21-03.52.57:440][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.52.57:494][609]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPointD4A0A4A04CBB3D0F74D9EAA747C0CD88.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.53.59:784][718]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-03.54.00:007][718]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
-[2019.09.21-03.54.00:430][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.54.00:481][758]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint9E149CD540BB903E24B27FA1760FEB83.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.54.06:225][376]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
-[2019.09.21-03.54.07:183][451]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.09.21-03.54.07:204][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.54.07:204][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.21-03.54.07:204][451]PIE: New page: PIE session: Level_1 (21 Sep 2019 11:54:07 pm)
-[2019.09.21-03.54.07:218][451]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
-[2019.09.21-03.54.07:223][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004409s)
-[2019.09.21-03.54.07:224][451]LogAIModule: Creating AISystem for world Level_1
-[2019.09.21-03.54.07:224][451]LogPlayLevel: PIE: World Init took: (0.000915s)
-[2019.09.21-03.54.07:224][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.005765s)
-[2019.09.21-03.54.07:272][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
-[2019.09.21-03.54.07:280][451]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.09.21-03.54.07:389][451]LogInit: FAudioDevice initialized.
-[2019.09.21-03.54.07:394][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.54.07:442][451]LogLoad: Game class is 'GameModeBase'
-[2019.09.21-03.54.07:445][451]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2019.09.21-13.54.07
-[2019.09.21-03.54.07:447][451]LogWorld: Bringing up level for play took: 0.003835
-[2019.09.21-03.54.07:482][451]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2019.09.21-03.54.07:494][451]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2019.09.21-03.54.07:496][451]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
-[2019.09.21-03.54.07:500][451]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 -0.199
-[2019.09.21-03.54.07:500][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.54.07:942][453]LogRenderer: Reallocating scene render targets to support 1528x832 Format 10 NumSamples 1 (Frame:1).
-[2019.09.21-03.54.13:412][819]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.54.13:413][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.54.13:430][819]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.09.21-03.54.13:484][819]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.09.21-03.54.13:485][819]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.54.13:653][819]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
-[2019.09.21-03.54.13:669][820]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.09.21-03.54.21:114][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-03.54.46:762][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-03.55.01:267][762]LogEditorFactories: Performing atomic reimport of [C:/Users/ellan/Desktop/Marker.fbx]
-[2019.09.21-03.55.01:314][762]LogFbx: Loading FBX Scene from C:/Users/ellan/Desktop/Marker.fbx
-[2019.09.21-03.55.01:321][762]LogFbx: FBX Scene Loaded Succesfully
-[2019.09.21-03.55.01:325][762]LogFbx: Display: Triangulating static mesh Mesh
-[2019.09.21-03.55.01:380][762]LogStaticMesh: Building static mesh Marker...
-[2019.09.21-03.55.01:386][762]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
-[2019.09.21-03.55.01:402][762]LogStaticMesh: Built static mesh [0.02s] /Game/__MyContent/Meshes/Marker/Marker.Marker
-[2019.09.21-03.55.01:418][762]LogEditorFactories: -- imported successfully
-[2019.09.21-03.55.01:421][762]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.09.21-03.55.17:104][147]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.09.21-03.55.17:117][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.55.17:117][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.21-03.55.17:117][147]PIE: New page: PIE session: Level_1 (21 Sep 2019 11:55:17 pm)
-[2019.09.21-03.55.17:117][147]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
-[2019.09.21-03.55.17:122][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004258s)
-[2019.09.21-03.55.17:128][147]LogAIModule: Creating AISystem for world Level_1
-[2019.09.21-03.55.17:128][147]LogPlayLevel: PIE: World Init took: (0.006565s)
-[2019.09.21-03.55.17:128][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.011041s)
-[2019.09.21-03.55.17:246][147]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
-[2019.09.21-03.55.17:255][147]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.09.21-03.55.17:365][147]LogInit: FAudioDevice initialized.
-[2019.09.21-03.55.17:372][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.55.17:412][147]LogLoad: Game class is 'GameModeBase'
-[2019.09.21-03.55.17:415][147]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2019.09.21-13.55.17
-[2019.09.21-03.55.17:415][147]LogWorld: Bringing up level for play took: 0.001616
-[2019.09.21-03.55.17:436][147]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 -0.262
-[2019.09.21-03.55.17:437][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.55.20:211][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.55.20:211][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-03.55.20:227][322]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.09.21-03.55.20:302][322]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.09.21-03.55.20:302][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-03.55.20:436][322]LogUObjectHash: Compacting FUObjectHashTables data took   7.39ms
-[2019.09.21-03.55.20:457][323]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.09.21-03.56.19:308][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-03.56.19:366][223]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint6F41982E4B2CBA72B09FD8905AD9DBA2.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-03.57.25:940][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
-[2019.09.21-03.57.26:142][ 80]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto58CCB9351487A9E7D77044E96C7CC8548.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto5.umap'
-[2019.09.21-03.57.26:146][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.249
-[2019.09.21-03.57.26:146][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
-[2019.09.21-03.57.26:151][ 80]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/__MyContent/Meshes/Marker/Marker] ([1] browsable assets)...
-[2019.09.21-03.57.26:184][ 80]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/__MyContent/Meshes/Marker/Marker.Marker]
-[2019.09.21-03.57.26:184][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Meshes/Marker/Marker]
-[2019.09.21-03.57.26:213][ 80]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Marker_Auto564574C9E4DE01DADC3D170A0A59E5598.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Meshes/Marker/Marker_Auto5.uasset'
-[2019.09.21-03.57.26:215][ 80]LogFileHelpers: Auto-saving content packages took 0.064
-[2019.09.21-04.00.50:717][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
-[2019.09.21-04.00.50:717][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.041
-[2019.09.21-04.00.50:718][471]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyWayPoint] ([1] browsable assets)...
-[2019.09.21-04.00.50:718][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyWayPoint]
-[2019.09.21-04.00.50:772][471]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint_Auto6AF77E9E243C5B49AB51F489D57DDEEA1.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyWayPoint_Auto6.uasset'
-[2019.09.21-04.00.50:773][471]LogFileHelpers: Auto-saving content packages took 0.055
-[2019.09.21-04.05.10:980][650]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.05.11:198][650]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
-[2019.09.21-04.05.11:654][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.05.11:708][694]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint7FC834934FDFB77BE01CC5A9FCB567BA.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.05.35:801][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.06.29:672][913]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
-[2019.09.21-04.06.29:881][913]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto78EC9A90E4FC855302D8538805A3A93C0.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto7.umap'
-[2019.09.21-04.06.29:885][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.263
-[2019.09.21-04.06.29:885][913]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.263
-[2019.09.21-04.08.58:082][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.21-04.08.58:154][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
-[2019.09.21-04.08.58:350][653]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto845D42CF9467C25F55E31688423C2DF97.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto8.umap'
-[2019.09.21-04.08.58:354][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.246
-[2019.09.21-04.08.58:354][653]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.246
-[2019.09.21-04.10.04:938][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.21-04.10.24:592][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.12.34:088][807]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.12.34:304][807]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
-[2019.09.21-04.12.34:747][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.12.34:805][830]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint9959676742B34C63BAB6D08AE8644459.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.13.25:108][840]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.13.25:321][840]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
-[2019.09.21-04.13.25:707][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.13.25:763][859]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPointE47A8C1844DAFC023B864E9EE1D32757.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.15.15:535][423]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
-[2019.09.21-04.15.15:742][423]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_17AEB4BF5452AD9B08326F4AEFA2172D4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.15.15:771][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.15.15:797][423]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData932BC6EE4EEED289B01737849F8BD99C.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.15.43:462][ 21]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.15.43:684][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
-[2019.09.21-04.15.44:147][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.15.44:202][ 44]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint16265EA8412967F378B3D68FF494A50D.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.18.10:860][780]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.18.11:082][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
-[2019.09.21-04.18.12:269][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.18.12:330][847]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint1B5FADCE4FF43D8BFFAAF9A4836DEF07.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.18.39:310][463]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.21-04.19.07:599][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.19.10:756][341]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
-[2019.09.21-04.19.10:952][341]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto9CDCEDCF6438A5C0F7F541AA2D80B0A94.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto9.umap'
-[2019.09.21-04.19.10:959][341]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.255
-[2019.09.21-04.19.10:959][341]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.255
-[2019.09.21-04.20.19:973][174]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.20.20:207][174]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
-[2019.09.21-04.20.20:527][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.20.20:596][190]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint54CBEEA048CFB789B3A8BCBC77B3FE96.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.22.10:122][484]BlueprintLog: New page: Compile BP_MyWayPoint
-[2019.09.21-04.22.10:353][484]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
-[2019.09.21-04.22.11:266][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.22.11:329][536]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint1282FB2F4BC11E5603CD00B19A686CC3.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.22.57:623][299]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
-[2019.09.21-04.22.57:848][299]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto0247E914E43CBDE507B9176B59CAB63AB.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto0.umap'
-[2019.09.21-04.22.57:853][299]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.281
-[2019.09.21-04.22.57:853][299]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.281
-[2019.09.21-04.23.51:539][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
-[2019.09.21-04.23.51:739][500]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_16DF6D9CF47026D95D4EDD48A97379B26.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.23.51:763][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.23.51:783][500]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltDataF8FD5FE240202C3FB55302B847BB6917.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.23.55:579][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_MyWayPoint" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset" SILENT=true
-[2019.09.21-04.23.55:648][724]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyWayPoint1152C1344AEAA060ED75E99C3BC1648B.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyWayPoint.uasset'
-[2019.09.21-04.26.40:452][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Marker)
-[2019.09.21-04.26.54:243][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Marker2)
-[2019.09.21-04.26.56:577][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Marker3)
-[2019.09.21-04.27.05:090][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.21-04.27.06:759][154]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.09.21-04.27.06:784][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.27.06:784][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.21-04.27.06:784][154]PIE: New page: PIE session: Level_1 (22 Sep 2019 12:27:06 am)
-[2019.09.21-04.27.06:784][154]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
-[2019.09.21-04.27.06:789][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004309s)
-[2019.09.21-04.27.06:790][154]LogAIModule: Creating AISystem for world Level_1
-[2019.09.21-04.27.06:790][154]LogPlayLevel: PIE: World Init took: (0.000814s)
-[2019.09.21-04.27.06:790][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.005269s)
-[2019.09.21-04.27.06:838][154]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
-[2019.09.21-04.27.06:849][154]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.09.21-04.27.06:965][154]LogInit: FAudioDevice initialized.
-[2019.09.21-04.27.06:968][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.21-04.27.06:972][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-04.27.07:014][154]LogLoad: Game class is 'GameModeBase'
-[2019.09.21-04.27.07:017][154]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2019.09.21-14.27.07
-[2019.09.21-04.27.07:017][154]LogWorld: Bringing up level for play took: 0.001743
-[2019.09.21-04.27.07:035][154]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 -0.663
-[2019.09.21-04.27.07:037][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.27.26:082][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.27.26:083][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-04.27.26:097][284]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.09.21-04.27.26:144][284]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.09.21-04.27.26:144][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.27.26:229][284]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
-[2019.09.21-04.27.26:259][285]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.09.21-04.28.18:892][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.28.22:060][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2019.09.21-04.28.22:268][628]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto11D790A344BF0B16178866AADA27A8CFB.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto1.umap'
-[2019.09.21-04.28.22:272][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.254
-[2019.09.21-04.28.22:272][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.254
-[2019.09.21-04.30.23:359][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.30.34:519][206]LogSlate: Window 'Pick Parent Class' being destroyed
-[2019.09.21-04.30.59:930][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.31.08:321][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.31.35:668][855]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MySplinePlatform.BP_MySplinePlatform
-[2019.09.21-04.32.55:627][592]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.32.55:850][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
-[2019.09.21-04.32.56:261][613]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatform7BB741704AB4A0590C1A0B9D5097ECA1.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.34.38:800][741]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.34.39:011][741]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
-[2019.09.21-04.34.39:393][760]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatform38B58B95405AEEFF9B62AC94070CCCEB.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.34.45:246][105]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.34.45:476][105]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
-[2019.09.21-04.34.45:773][119]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatform3BE1167249CACAD48F98C5AB030F6FAA.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.37.04:992][680]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.21-04.37.15:165][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.37.48:031][256]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.37.48:248][256]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
-[2019.09.21-04.37.48:718][280]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatformE066AA3E41FDDD89A17E2CB32F85989C.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.37.50:021][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
-[2019.09.21-04.37.50:228][353]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_100D101004E336D941A4A3F9F641FDB00.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.37.50:253][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.37.50:274][353]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData6E2A0E7A4607FB9C4D0E959AED93D476.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.37.58:804][863]LogEditorViewport: Clicking on Actor (LMB): BP_MySplinePlatform_C (Platfrom 2)
-[2019.09.21-04.38.01:732][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.38.37:980][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.39.16:643][501]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.21-04.39.21:526][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.39.50:018][494]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
-[2019.09.21-04.39.50:230][494]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto2DD66A8B741841E7A34572AAAD8165548.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto2.umap'
-[2019.09.21-04.39.50:235][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.261
-[2019.09.21-04.39.50:235][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.261
-[2019.09.21-04.40.02:741][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
-[2019.09.21-04.40.02:950][239]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1748211A84C3A9A4899379F9781C3426F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.40.02:979][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.40.03:001][239]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData9CB55A4A45A5BEC7245BDDBDF08D8808.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.41.15:843][293]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.21-04.42.14:115][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.44.09:193][611]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.44.09:408][611]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
-[2019.09.21-04.44.09:832][632]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatformD63EEF8A436254667DCCA6930220C154.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.44.13:931][873]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
-[2019.09.21-04.44.14:141][873]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_17D5BE53F485E6E41E43F598254860063.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.44.14:169][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.44.14:191][873]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData966CE23243AB5B525ADADC9E00F1AC90.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.48.35:630][502]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.48.35:870][502]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
-[2019.09.21-04.48.36:385][528]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatform02F42AC74997EB7975BB2085EB0AEB80.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.49.11:118][570]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.49.11:354][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
-[2019.09.21-04.49.11:780][590]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatform9EC8D0374027E7C8AECAE8914316E08F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.51.20:474][630]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
-[2019.09.21-04.51.20:739][630]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto34E9D729241832BB4801B5EA884E1C07C.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto3.umap'
-[2019.09.21-04.51.20:744][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.321
-[2019.09.21-04.51.20:744][630]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.321
-[2019.09.21-04.51.20:749][630]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MySplinePlatform] ([1] browsable assets)...
-[2019.09.21-04.51.20:749][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MySplinePlatform]
-[2019.09.21-04.51.20:780][630]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatform_Auto37578F85E4E8DA291E03F7E9991EF5664.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MySplinePlatform_Auto3.uasset'
-[2019.09.21-04.51.20:782][630]LogFileHelpers: Auto-saving content packages took 0.033
-[2019.09.21-04.55.36:102][307]BlueprintLog: New page: Compile BP_MySplinePlatform
-[2019.09.21-04.55.36:312][307]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
-[2019.09.21-04.55.36:905][363]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MySplinePlatformF781D44E41ACA6E9D9990391259A270E.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MySplinePlatform.uasset'
-[2019.09.21-04.55.40:865][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
-[2019.09.21-04.55.41:072][786]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1331485DF44D116C28D7129AE272D9DCE.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.55.41:096][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.55.41:119][786]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData1C6C3A704C27CFE4C20EBF99A6DEFB60.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.56.16:269][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.56.16:488][708]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
-[2019.09.21-04.56.16:689][708]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1AC981EF5415F576BC0BF77A4BCBEF639.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.56.16:719][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.56.16:738][708]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData8A0A11D041CABC7C815338B0B7DB8011.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
-[2019.09.21-04.56.24:011][525]LogEditorViewport: Clicking on Actor (LMB): BP_MySplinePlatform_C (Platfrom 2)
-[2019.09.21-04.57.14:733][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.09.21-04.57.15:904][746]LogEditorViewport: Clicking on Actor (LMB): BP_MySplinePlatform_C (Platfrom 2)
-[2019.09.21-04.58.02:144][438]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.21-04.58.03:052][498]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.09.21-04.58.03:071][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.58.03:071][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.21-04.58.03:071][498]PIE: New page: PIE session: Level_1 (22 Sep 2019 12:58:03 am)
-[2019.09.21-04.58.03:072][498]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
-[2019.09.21-04.58.03:076][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004099s)
-[2019.09.21-04.58.03:076][498]LogAIModule: Creating AISystem for world Level_1
-[2019.09.21-04.58.03:077][498]LogPlayLevel: PIE: World Init took: (0.000864s)
-[2019.09.21-04.58.03:077][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.005132s)
-[2019.09.21-04.58.03:130][498]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
-[2019.09.21-04.58.03:140][498]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.09.21-04.58.03:242][498]LogInit: FAudioDevice initialized.
-[2019.09.21-04.58.03:244][498]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.21-04.58.03:248][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-04.58.03:285][498]LogLoad: Game class is 'GameModeBase'
-[2019.09.21-04.58.03:287][498]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2019.09.21-14.58.03
-[2019.09.21-04.58.03:288][498]LogWorld: Bringing up level for play took: 0.002221
-[2019.09.21-04.58.03:309][498]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 -0.39
-[2019.09.21-04.58.03:310][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.58.10:443][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.58.10:443][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.21-04.58.10:462][965]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.09.21-04.58.10:519][965]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.09.21-04.58.10:520][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2019.09.21-04.58.10:602][965]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
-[2019.09.21-04.58.10:633][966]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.09.21-04.58.50:464][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.21-04.58.50:628][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
-[2019.09.21-04.58.50:837][559]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1BD0E8D6741D24A56A0A108ADDDB46B49.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
-[2019.09.21-04.58.50:862][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
-[2019.09.21-04.58.50:885][559]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltDataF2ED94494B939F3C2441AC98957B4AFD.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:151][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.25-12.13.56:151][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.25-12.13.56:152][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:152][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:161][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:161][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.25-12.13.56:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.25-12.13.56:163][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.25-12.13.56:164][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:164][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.25-12.13.56:165][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:166][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.25-12.13.56:166][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.25-12.13.56:166][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.25-12.13.56:166][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.25-12.13.56:199][  0]LogHAL: Display: Platform has ~ 16 GB [17016786944 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.25-12.13.56:199][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.25-12.13.56:199][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.25-12.13.56:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.25-12.13.56:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Scalability.ini]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.25-12.13.56:201][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.25-12.13.56:202][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.25-12.13.56:202][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.25-12.13.56:202][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Config/Windows/Engine.ini]
+[2019.09.25-12.13.56:202][  0]LogInit: Computer: MSI
+[2019.09.25-12.13.56:202][  0]LogInit: User: ellan
+[2019.09.25-12.13.56:202][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.09.25-12.13.56:202][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.25-12.13.56:203][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.09.25-12.13.56:203][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.25-12.13.56:203][  0]LogMemory: Process Physical Memory: 97.10 MB used, 97.11 MB peak
+[2019.09.25-12.13.56:203][  0]LogMemory: Process Virtual Memory: 90.05 MB used, 90.05 MB peak
+[2019.09.25-12.13.56:203][  0]LogMemory: Physical Memory: 6746.86 MB used,  9481.62 MB free, 16228.47 MB total
+[2019.09.25-12.13.56:203][  0]LogMemory: Virtual Memory: 4660.50 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.09.25-12.13.56:258][  0]LogInit: Using OS detected language (en-US).
+[2019.09.25-12.13.56:258][  0]LogInit: Using OS detected locale (en-AU).
+[2019.09.25-12.13.56:259][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.25-12.13.56:430][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.25-12.13.56:476][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.25-12.13.56:476][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.25-12.13.56:819][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.25-12.13.56:819][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.25-12.13.56:962][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2019.09.25-12.13.56:962][  0]LogD3D11RHI:       5980/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.25-12.13.57:004][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.09.25-12.13.57:004][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.09.25-12.13.57:013][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.25-12.13.57:013][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.25-12.13.57:013][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.25-12.13.57:113][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.25-12.13.57:113][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.25-12.13.57:113][  0]LogWindows: EnumDisplayDevices:
+[2019.09.25-12.13.57:114][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.09.25-12.13.57:115][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.25-12.13.57:115][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.25-12.13.57:116][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.09.25-12.13.57:116][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.09.25-12.13.57:117][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.09.25-12.13.57:117][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.09.25-12.13.57:118][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.09.25-12.13.57:118][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2019.09.25-12.13.57:118][  0]LogD3D11RHI:   Driver Version: 417.77 (internal:25.21.14.1777, unified:417.77)
+[2019.09.25-12.13.57:118][  0]LogD3D11RHI:      Driver Date: 1-17-2019
+[2019.09.25-12.13.57:118][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2019.09.25-12.13.57:191][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.25-12.13.57:203][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.25-12.13.57:204][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.25-12.13.57:204][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.25-12.13.57:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.09.25-12.13.58:182][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.25-12.13.58:214][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.25-12.13.58:240][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.25-12.13.58:255][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.25-12.13.58:269][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.25-12.13.58:283][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.25-12.13.58:297][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.25-12.13.58:311][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.25-12.13.58:320][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.25-12.13.58:444][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.25-12.13.58:445][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.25-12.13.58:447][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.25-12.13.58:508][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.25-12.13.58:509][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.25-12.13.58:587][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.25-12.13.58:587][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.25-12.13.58:607][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.25-12.13.58:636][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.25-12.13.58:671][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.25-12.13.58:692][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.25-12.13.58:737][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.25-12.13.58:737][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.25-12.13.58:738][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.25-12.13.58:747][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.25-12.13.58:802][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../Documents/GitHub/3D-Platformer/MyProject2/Intermediate/Shaders/WorkingDirectory/12508/).
+[2019.09.25-12.13.58:802][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ellan/AppData/Local/Temp/UnrealShaderWorkingDir/3D8E754A4AB04D5EAF3864A6569361DF/'.
+[2019.09.25-12.13.58:805][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.25-12.13.58:805][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.25-12.13.58:805][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.25-12.13.59:363][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.25-12.13.59:457][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.25-12.13.59:457][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.25-12.13.59:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/3D-Platformer/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.25-12.13.59:457][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.25-12.13.59:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/GitHub/3D-Platformer/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.25-12.13.59:458][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.25-12.13.59:487][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.25-12.13.59:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.25-12.13.59:488][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.25-12.13.59:501][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ellan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.25-12.13.59:501][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.25-12.13.59:501][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.25-12.13.59:563][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.25-12.13.59:565][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.25-12.13.59:567][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.25-12.13.59:669][  0]LogAssetRegistry: FAssetRegistry took 0.0342 seconds to start up
+[2019.09.25-12.14.00:033][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.25-12.14.00:201][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.25-12.14.00:201][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.25-12.14.00:201][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.25-12.14.00:201][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.25-12.14.00:201][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.25-12.14.00:228][  0]LogNetVersion: MyProject2 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4139302413)
+[2019.09.25-12.14.00:882][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.072456 seconds
+[2019.09.25-12.14.00:890][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.25-12.14.00:890][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.25-12.14.00:890][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.25-12.14.01:859][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.25-12.14.01:874][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.25-12.14.02:051][  0]SourceControl: Source control is disabled
+[2019.09.25-12.14.02:051][  0]SourceControl: Source control is disabled
+[2019.09.25-12.14.02:053][  0]SourceControl: Source control is disabled
+[2019.09.25-12.14.02:054][  0]SourceControl: Source control is disabled
+[2019.09.25-12.14.02:065][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.09.25-12.14.02:066][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.09.25-12.14.02:147][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.25-12.14.02:351][  0]LogOcInput: OculusInput pre-init called
+[2019.09.25-12.14.03:176][  0]LogEngine: Initializing Engine...
+[2019.09.25-12.14.03:177][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.25-12.14.03:178][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.25-12.14.03:410][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.25-12.14.03:439][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.25-12.14.03:473][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.25-12.14.03:967][  0]LogInit: FAudioDevice initialized.
+[2019.09.25-12.14.03:967][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.25-12.14.04:091][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.25-12.14.04:103][  0]LogInit: Texture streaming: Enabled
+[2019.09.25-12.14.04:161][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.25-12.14.04:206][  0]LogInit: Transaction tracking system initialized
+[2019.09.25-12.14.04:241][  0]BlueprintLog: New page: Editor Load
+[2019.09.25-12.14.04:376][  0]LocalizationService: Localization service is disabled
+[2019.09.25-12.14.04:528][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.09.25-12.14.04:529][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.09.25-12.14.04:703][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Content/' took 0.01s
+[2019.09.25-12.14.04:703][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.25-12.14.04:703][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.25-12.14.04:900][  0]SourceControl: Source control is disabled
+[2019.09.25-12.14.04:900][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.25-12.14.04:900][  0]LightingResults: New page: Lighting Build
+[2019.09.25-12.14.04:903][  0]MapCheck: New page: Map Check
+[2019.09.25-12.14.04:903][  0]LightingResults: New page: Lighting Build
+[2019.09.25-12.14.04:935][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.09.25-12.14.05:215][  0]LogAIModule: Creating AISystem for world Level_1
+[2019.09.25-12.14.05:232][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.25-12.14.05:264][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.09.25-12.14.05:264][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.25-12.14.05:265][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.242ms to complete.
+[2019.09.25-12.14.05:265][  0]LogFileHelpers: Loading map 'Level_1' took 0.365
+[2019.09.25-12.14.05:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-12.14.05:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-12.14.05:522][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-12.14.05:533][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-12.14.05:540][  0]LogCollectionManager: Loaded 0 collections in 0.001918 seconds
+[2019.09.25-12.14.05:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Saved/Collections/' took 0.01s
+[2019.09.25-12.14.05:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Content/Developers/ellan/Collections/' took 0.00s
+[2019.09.25-12.14.05:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/MyProject2/Content/Collections/' took 0.01s
+[2019.09.25-12.14.05:569][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.09.25-12.14.05:577][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2732 classes and 659 folders.
+[2019.09.25-12.14.05:591][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.25-12.14.05:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:597][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:603][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:605][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:610][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:611][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:613][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:615][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:621][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:621][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.25-12.14.05:658][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.09.25-12.14.05:664][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.09.25-12.14.05:769][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.25-12.14.05:769][  0]LogLoad: (Engine Initialization) Total time: 12.00 seconds
+[2019.09.25-12.14.05:770][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.25-12.14.05:825][  0]LogAssetRegistry: Asset discovery search completed in 6.1782 seconds
+[2019.09.25-12.14.05:828][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.25-12.14.05:828][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2019.09.25-12.14.05:829][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.25-12.14.05:838][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.25-12.14.05:840][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.25-12.14.05:844][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.25-12.14.06:197][  0]LogRenderer: Reallocating scene render targets to support 492x388 Format 10 NumSamples 1 (Frame:1).
+[2019.09.25-12.14.06:197][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.25-12.14.06:795][ 41]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.25-12.14.08:784][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.09.25-12.14.10:236][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.25-12.14.10:424][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MyGamemanager.BP_MyGameManager
+[2019.09.25-12.14.10:802][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 121 classes and 0 folders.
+[2019.09.25-12.14.24:122][458]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.09.25-12.14.24:129][458]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.09.25-12.14.35:713][642]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MyFunctionLibrary.BP_MyFunctionLibrary
+[2019.09.25-12.14.36:402][642]LogSlate: Took 0.000649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.25-12.14.39:080][880]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MyGameMode.BP_MyGameMode
+[2019.09.25-12.14.45:316][261]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1
+[2019.09.25-12.15.30:490][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.25-12.15.31:913][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.25-12.15.34:761][112]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.09.25-12.15.36:386][112]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.09.25-12.15.53:918][432]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.25-12.15.53:940][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-12.15.53:940][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.25-12.15.53:940][432]PIE: New page: PIE session: Level_1 (26 Sep 2019 8:15:53 am)
+[2019.09.25-12.15.53:953][432]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
+[2019.09.25-12.15.53:958][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004712s)
+[2019.09.25-12.15.53:960][432]LogAIModule: Creating AISystem for world Level_1
+[2019.09.25-12.15.53:960][432]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2019.09.25-12.15.53:960][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.006949s)
+[2019.09.25-12.15.54:117][432]LogUObjectHash: Compacting FUObjectHashTables data took  16.83ms
+[2019.09.25-12.15.54:154][432]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.25-12.15.54:508][432]LogInit: FAudioDevice initialized.
+[2019.09.25-12.15.54:539][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-12.15.54:603][432]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.09.25-12.15.54:607][432]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2019.09.25-22.15.54
+[2019.09.25-12.15.54:608][432]LogWorld: Bringing up level for play took: 0.002718
+[2019.09.25-12.15.54:628][432]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.09.25-12.15.54:631][432]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.09.25-12.15.54:631][432]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.09.25-12.15.54:636][432]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 0.471
+[2019.09.25-12.15.54:636][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-12.15.55:168][434]LogRenderer: Reallocating scene render targets to support 1528x832 Format 10 NumSamples 1 (Frame:1).
+[2019.09.25-12.15.57:267][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-12.15.57:267][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-12.15.57:292][546]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.25-12.15.57:359][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.25-12.15.57:360][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-12.15.57:594][546]LogUObjectHash: Compacting FUObjectHashTables data took  17.47ms
+[2019.09.25-12.15.57:624][547]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.09.25-12.17.52:999][778]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MyGamemanager.BP_MyGameManager
+[2019.09.25-12.19.31:989][186]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-12.19.32:250][186]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2019.09.25-12.20.04:047][697]LogSlate: Window 'My Blueprint' being destroyed
+[2019.09.25-12.20.07:980][ 95]LogSlate: Window 'My Blueprint' being destroyed
+[2019.09.25-12.20.23:366][956]LogSlate: Window 'My Blueprint' being destroyed
+[2019.09.25-12.20.33:334][966]LogSlate: Window 'Find Results' being destroyed
+[2019.09.25-12.20.33:344][966]LogSlate: Window 'Find Results' being destroyed
+[2019.09.25-12.21.00:518][945]LogTabManager: Warning: Unable to insert tab 'Document'.
+[2019.09.25-12.21.00:518][945]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'Document'
+[2019.09.25-12.21.09:722][713]LogSlate: Window 'Document' being destroyed
+[2019.09.25-12.21.09:729][713]LogSlate: Window 'Document' being destroyed
+[2019.09.25-12.21.40:826][438]LogSlate: Window 'Construction Script' being destroyed
+[2019.09.25-12.21.40:832][438]LogSlate: Window 'Construction Script' being destroyed
+[2019.09.25-12.21.49:041][ 97]LogSlate: Window 'Construction Script' being destroyed
+[2019.09.25-12.22.43:069][131]LogSlate: Took 0.000607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.09.25-12.23.31:306][542]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2019.09.25-12.23.32:138][542]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto11CB8D87A4C2071A0A8A838AB502F42DD.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto1.umap'
+[2019.09.25-12.23.32:153][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.951
+[2019.09.25-12.23.32:153][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.951
+[2019.09.25-12.23.32:158][542]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGamemanager] ([1] browsable assets)...
+[2019.09.25-12.23.32:158][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGamemanager]
+[2019.09.25-12.23.32:241][542]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager_Auto10446F4914E724477CE38B5B63B763389.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGamemanager_Auto1.uasset'
+[2019.09.25-12.23.32:245][542]LogFileHelpers: Auto-saving content packages took 0.088
+[2019.09.25-12.24.01:609][178]LogSlate: Window 'New Function 0' being destroyed
+[2019.09.25-12.24.14:178][896]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-12.24.14:409][896]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.09.25-12.24.14:820][915]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager8E3C87B043318CF4F058A8AC7B11909B.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-12.24.38:212][164]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-12.24.38:453][164]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.09.25-12.24.39:330][207]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager5EC3E6DC404912B9CF486CA1F74B4221.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-12.25.35:173][457]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2019.09.25-12.25.35:450][457]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto27B2BB58E4721F6FAB60200973D7EB67B.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto2.umap'
+[2019.09.25-12.25.35:454][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.383
+[2019.09.25-12.25.35:454][457]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2019.09.25-12.26.37:480][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.09.25-12.31.17:700][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.25-12.31.17:927][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.09.25-12.31.18:374][590]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_14ABFF30946968A0E905A7BBCCF62B467.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
+[2019.09.25-12.31.18:420][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2019.09.25-12.31.18:481][590]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData589A908B4537EEE2E87FCA98ADC6128D.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
+[2019.09.25-12.38.10:542][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.09.25-12.52.56:313][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.25-13.03.29:573][556]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2019.09.25-13.03.29:785][556]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1597C48F74715078483E1CCAD3BBAE068.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
+[2019.09.25-13.03.29:808][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2019.09.25-13.03.29:832][556]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData13F66D154EBDAF01D7DFEC91ACBC6D39.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
+[2019.09.25-13.07.12:740][203]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.07.12:960][203]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2019.09.25-13.07.13:588][268]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager09242DC74B9D98A500501BBB6028E075.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-13.08.04:916][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.09.25-13.08.05:137][397]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto324E9B63549E93E399BB6F8BB11C13B93.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto3.umap'
+[2019.09.25-13.08.05:141][397]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.276
+[2019.09.25-13.08.05:142][397]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.276
+[2019.09.25-13.09.40:685][553]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.09.25-13.13.42:322][  5]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.09.25-13.13.42:322][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.051
+[2019.09.25-13.13.42:323][  5]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGameStates] ([1] browsable assets)...
+[2019.09.25-13.13.42:323][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGameStates]
+[2019.09.25-13.13.42:329][  5]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGameStates_Auto426836196420C99E4E498458553A87AC3.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGameStates_Auto4.uasset'
+[2019.09.25-13.13.42:331][  5]LogFileHelpers: Auto-saving content packages took 0.008
+[2019.09.25-13.14.10:897][ 87]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/__MyContent/Blueprints/BP_MyGameStates.BP_MyGameStates
+[2019.09.25-13.14.15:047][471]LogSlate: Window 'BP_MyGameStates' being destroyed
+[2019.09.25-13.15.58:582][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.09.25-13.15.58:582][859]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.046
+[2019.09.25-13.15.58:583][859]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGameStates] ([1] browsable assets)...
+[2019.09.25-13.15.58:583][859]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGameStates]
+[2019.09.25-13.15.58:589][859]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGameStates_Auto59D5D3D36483233535416BE8FDD538DB3.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGameStates_Auto5.uasset'
+[2019.09.25-13.15.58:592][859]LogFileHelpers: Auto-saving content packages took 0.009
+[2019.09.25-13.17.58:695][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.09.25-13.17.58:695][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.046
+[2019.09.25-13.17.58:697][726]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGameStates] ([1] browsable assets)...
+[2019.09.25-13.17.58:697][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGameStates]
+[2019.09.25-13.17.58:702][726]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGameStates_Auto6CE60D4434DE5A82019929D970C676E5D.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGameStates_Auto6.uasset'
+[2019.09.25-13.17.58:704][726]LogFileHelpers: Auto-saving content packages took 0.007
+[2019.09.25-13.19.58:803][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.09.25-13.19.58:803][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.043
+[2019.09.25-13.19.58:805][116]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGameStates] ([1] browsable assets)...
+[2019.09.25-13.19.58:805][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGameStates]
+[2019.09.25-13.19.58:812][116]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGameStates_Auto727835EA54B9708E6AAF96384124C9BFF.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGameStates_Auto7.uasset'
+[2019.09.25-13.19.58:813][116]LogFileHelpers: Auto-saving content packages took 0.009
+[2019.09.25-13.26.12:040][726]LogSlate: Window 'New Function 0' being destroyed
+[2019.09.25-13.26.30:742][826]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.25-13.27.06:693][406]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2019.09.25-13.27.06:907][406]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto817BF79B24DC6E3DCA95724815D3A220F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto8.umap'
+[2019.09.25-13.27.06:911][406]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.283
+[2019.09.25-13.27.06:911][406]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2019.09.25-13.27.06:913][406]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGamemanager] ([1] browsable assets)...
+[2019.09.25-13.27.06:913][406]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGamemanager]
+[2019.09.25-13.27.06:948][406]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager_Auto86D367D854F58ADAE233F9BAD746E0731.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGamemanager_Auto8.uasset'
+[2019.09.25-13.27.06:951][406]LogFileHelpers: Auto-saving content packages took 0.038
+[2019.09.25-13.43.51:406][ 48]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGameStatesC26C31C54E13F84CB1EF56B26890377E.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGameStates.uasset'
+[2019.09.25-13.46.44:591][653]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.46.44:815][653]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2019.09.25-13.46.58:913][494]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager0028F4F240520E5D7C6D59B18EC51357.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-13.47.15:511][408]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/BP_MyGamemanager.BP_MyGameManager
+[2019.09.25-13.48.51:391][872]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.48.51:619][872]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2019.09.25-13.48.52:030][892]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager5A750F664DBB347917F9539451E56DAE.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-13.49.27:193][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.09.25-13.49.27:424][994]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto9D4C888CB4E7643AB5AC88C92AC0B543F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto9.umap'
+[2019.09.25-13.49.27:428][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.278
+[2019.09.25-13.49.27:428][994]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.278
+[2019.09.25-13.50.22:098][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.09.25-13.50.22:328][265]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_158663AB14C7F3A3E6839DE90256364F3.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
+[2019.09.25-13.50.22:352][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2019.09.25-13.50.22:379][265]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_BuiltData8238596347F367C81B7024869C644538.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
+[2019.09.25-13.50.31:078][784]LogEditorTransaction: Undo Delete current selection
+[2019.09.25-13.53.12:116][412]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2019.09.25-13.53.12:342][412]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto06ABA3FDC44B94FCE69A00C8AC8326F0B.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto0.umap'
+[2019.09.25-13.53.12:346][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.276
+[2019.09.25-13.53.12:346][412]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.276
+[2019.09.25-13.53.12:348][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGamemanager] ([1] browsable assets)...
+[2019.09.25-13.53.12:348][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGamemanager]
+[2019.09.25-13.53.12:375][412]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager_Auto0C0134A00434553D474AF96892912743D.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGamemanager_Auto0.uasset'
+[2019.09.25-13.53.12:376][412]LogFileHelpers: Auto-saving content packages took 0.029
+[2019.09.25-13.54.14:726][141]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.54.14:943][141]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.09.25-13.54.15:452][167]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager304CB8BD4B5FF220219C469FF99F94C2.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-13.54.34:540][309]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.54.34:765][309]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.09.25-13.54.35:243][333]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager1BFD6B114CAE70DA12DFA4A0A9816000.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-13.55.24:497][280]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.09.25-13.55.24:748][280]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1_Auto1CE7F4AF84C7EB09E831EE5B492556106.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto1.umap'
+[2019.09.25-13.55.24:753][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.301
+[2019.09.25-13.55.24:753][280]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.301
+[2019.09.25-13.55.24:754][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/BP_MyGamemanager] ([1] browsable assets)...
+[2019.09.25-13.55.24:754][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/BP_MyGamemanager]
+[2019.09.25-13.55.24:787][280]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager_Auto1399D812542F334F5F6BED88EFC1D3EB9.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Autosaves/Game/__MyContent/Blueprints/BP_MyGamemanager_Auto1.uasset'
+[2019.09.25-13.55.24:788][280]LogFileHelpers: Auto-saving content packages took 0.034
+[2019.09.25-13.55.35:571][924]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.55.35:796][924]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.09.25-13.55.36:190][943]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager9FBF488641DE7FC6BDB2E7A84E3649E4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-13.55.57:276][204]BlueprintLog: New page: Compile BP_MyGameManager
+[2019.09.25-13.55.57:504][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.09.25-13.55.57:856][221]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/BP_MyGamemanager00C73D2347327AB5500BE3A5AC2CD8FA.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Blueprints/BP_MyGamemanager.uasset'
+[2019.09.25-14.00.02:315][357]BlueprintLog: New page: Compile Level_1
+[2019.09.25-14.00.02:519][357]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.09.25-14.00.02:905][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.09.25-14.00.03:146][376]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Saved/Level_1C8F31A9341F735D104458A820B151FE7.tmp' to '../../../../../Documents/GitHub/3D-Platformer/MyProject2/Content/__MyContent/Maps/Level_1.umap'
+[2019.09.25-14.00.03:170][376]LogFileHelpers: Saving map 'Level_1' took 0.310
+[2019.09.25-14.00.55:544][246]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.09.25-14.00.56:533][303]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.25-14.00.56:559][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-14.00.56:560][303]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.09.25-14.00.56:560][303]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.09.25-14.00.56:610][303]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.09.25-14.00.56:610][303]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (1 blueprints)
+[2019.09.25-14.00.56:610][303]PIE: New page: PIE session: Level_1 (26 Sep 2019 10:00:56 am)
+[2019.09.25-14.00.56:610][303]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
+[2019.09.25-14.00.56:615][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004064s)
+[2019.09.25-14.00.56:615][303]LogAIModule: Creating AISystem for world Level_1
+[2019.09.25-14.00.56:615][303]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2019.09.25-14.00.56:615][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.004866s)
+[2019.09.25-14.00.56:662][303]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.09.25-14.00.56:676][303]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.25-14.00.56:784][303]LogInit: FAudioDevice initialized.
+[2019.09.25-14.00.56:794][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-14.00.56:828][303]LogLoad: Game class is 'BP_MyGameMode_C'
+[2019.09.25-14.00.56:830][303]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2019.09.26-00.00.56
+[2019.09.25-14.00.56:830][303]LogWorld: Bringing up level for play took: 0.001806
+[2019.09.25-14.00.56:848][303]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 0.683
+[2019.09.25-14.00.56:850][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-14.01.01:680][587]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-14.01.01:680][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.25-14.01.01:692][587]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.25-14.01.01:743][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.25-14.01.01:744][587]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.09.25-14.01.01:839][587]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.09.25-14.01.01:865][588]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.09.25-14.01.17:467][522]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.25-14.01.19:015][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
