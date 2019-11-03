@@ -1,0 +1,1157 @@
+﻿Log file open, 10/21/19 20:24:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PlatformerTask
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.411350
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/ellan/Desktop/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.21-09.24.39:307][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.21-09.24.39:308][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.21-09.24.39:308][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.21-09.24.39:308][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.21-09.24.39:308][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:308][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:312][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.21-09.24.39:312][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.21-09.24.39:313][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.21-09.24.39:314][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.21-09.24.39:314][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.21-09.24.39:314][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.21-09.24.39:333][  0]LogHAL: Display: Platform has ~ 16 GB [17016786944 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.21-09.24.39:333][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.10.21-09.24.39:334][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.21-09.24.39:334][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.21-09.24.39:334][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.21-09.24.39:335][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.21-09.24.39:336][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.21-09.24.39:336][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.21-09.24.39:336][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Config/Windows/Engine.ini]
+[2019.10.21-09.24.39:336][  0]LogInit: Computer: MSI
+[2019.10.21-09.24.39:336][  0]LogInit: User: ellan
+[2019.10.21-09.24.39:336][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.21-09.24.39:336][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.21-09.24.39:336][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.10.21-09.24.39:336][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.21-09.24.39:337][  0]LogMemory: Process Physical Memory: 98.87 MB used, 98.88 MB peak
+[2019.10.21-09.24.39:337][  0]LogMemory: Process Virtual Memory: 89.95 MB used, 89.95 MB peak
+[2019.10.21-09.24.39:337][  0]LogMemory: Physical Memory: 7992.67 MB used,  8235.80 MB free, 16228.47 MB total
+[2019.10.21-09.24.39:337][  0]LogMemory: Virtual Memory: 4660.51 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.10.21-09.24.39:369][  0]LogInit: Using OS detected language (en-US).
+[2019.10.21-09.24.39:369][  0]LogInit: Using OS detected locale (en-AU).
+[2019.10.21-09.24.39:370][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.21-09.24.39:534][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.21-09.24.39:589][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.21-09.24.39:589][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.21-09.24.39:852][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.21-09.24.39:852][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.21-09.24.39:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2019.10.21-09.24.39:942][  0]LogD3D11RHI:       5980/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.21-09.24.39:962][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.10.21-09.24.39:962][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.21-09.24.39:965][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.21-09.24.39:965][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.21-09.24.39:965][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.21-09.24.40:002][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.21-09.24.40:002][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.21-09.24.40:002][  0]LogWindows: EnumDisplayDevices:
+[2019.10.21-09.24.40:002][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.10.21-09.24.40:003][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.21-09.24.40:003][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.21-09.24.40:003][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.10.21-09.24.40:004][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.10.21-09.24.40:004][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.10.21-09.24.40:004][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2019.10.21-09.24.40:004][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.21-09.24.40:005][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2019.10.21-09.24.40:005][  0]LogD3D11RHI:   Driver Version: 417.77 (internal:25.21.14.1777, unified:417.77)
+[2019.10.21-09.24.40:005][  0]LogD3D11RHI:      Driver Date: 1-17-2019
+[2019.10.21-09.24.40:005][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2019.10.21-09.24.40:070][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.21-09.24.40:074][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.21-09.24.40:074][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.21-09.24.40:074][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.21-09.24.40:089][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.21-09.24.40:388][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.21-09.24.40:403][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.21-09.24.40:418][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.21-09.24.40:433][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.21-09.24.40:448][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.21-09.24.40:462][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.21-09.24.40:476][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.21-09.24.40:490][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.21-09.24.40:497][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.21-09.24.40:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.21-09.24.40:585][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.21-09.24.40:587][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.21-09.24.40:642][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.21-09.24.40:642][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.21-09.24.40:667][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.21-09.24.40:667][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.21-09.24.40:680][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.21-09.24.40:692][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.21-09.24.40:705][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.21-09.24.40:719][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.21-09.24.40:765][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.21-09.24.40:765][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.21-09.24.40:766][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.21-09.24.40:775][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.21-09.24.40:828][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Intermediate/Shaders/WorkingDirectory/11868/).
+[2019.10.21-09.24.40:829][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ellan/AppData/Local/Temp/UnrealShaderWorkingDir/0B115D77475700EB29BEE6B33EC187C2/'.
+[2019.10.21-09.24.40:831][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.21-09.24.40:831][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.21-09.24.40:831][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.21-09.24.41:365][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.21-09.24.41:419][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.21-09.24.41:419][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.10.21-09.24.41:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.21-09.24.41:419][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.21-09.24.41:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.21-09.24.41:420][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.21-09.24.41:434][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.21-09.24.41:434][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.21-09.24.41:434][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.21-09.24.41:447][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ellan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.21-09.24.41:447][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.21-09.24.41:447][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.21-09.24.41:469][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.21-09.24.41:470][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.21-09.24.41:471][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.21-09.24.41:565][  0]LogAssetRegistry: FAssetRegistry took 0.0349 seconds to start up
+[2019.10.21-09.24.41:896][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.21-09.24.42:021][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.21-09.24.42:021][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.21-09.24.42:021][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.21-09.24.42:021][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.21-09.24.42:021][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.21-09.24.42:038][  0]LogNetVersion: PlatformerTask 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 23945371)
+[2019.10.21-09.24.42:436][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.044695 seconds
+[2019.10.21-09.24.42:442][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.10.21-09.24.42:442][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.10.21-09.24.42:442][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.21-09.24.43:376][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.21-09.24.43:390][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.21-09.24.43:509][  0]SourceControl: Source control is disabled
+[2019.10.21-09.24.43:510][  0]SourceControl: Source control is disabled
+[2019.10.21-09.24.43:511][  0]SourceControl: Source control is disabled
+[2019.10.21-09.24.43:513][  0]SourceControl: Source control is disabled
+[2019.10.21-09.24.43:522][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.21-09.24.43:523][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.21-09.24.43:604][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.21-09.24.43:745][  0]LogOcInput: OculusInput pre-init called
+[2019.10.21-09.24.44:505][  0]LogEngine: Initializing Engine...
+[2019.10.21-09.24.44:506][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.21-09.24.44:507][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.21-09.24.44:712][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.21-09.24.44:730][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.21-09.24.44:805][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-09.24.44:915][  0]LogInit: FAudioDevice initialized.
+[2019.10.21-09.24.44:915][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.21-09.24.44:975][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/ellan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.21-09.24.44:983][  0]LogInit: Texture streaming: Enabled
+[2019.10.21-09.24.45:005][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.21-09.24.45:028][  0]LogInit: Transaction tracking system initialized
+[2019.10.21-09.24.45:054][  0]BlueprintLog: New page: Editor Load
+[2019.10.21-09.24.45:144][  0]LocalizationService: Localization service is disabled
+[2019.10.21-09.24.45:284][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.21-09.24.45:284][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.21-09.24.45:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Content/' took 0.02s
+[2019.10.21-09.24.45:462][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.21-09.24.45:462][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.21-09.24.45:645][  0]SourceControl: Source control is disabled
+[2019.10.21-09.24.45:645][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.24.45:645][  0]LogEditorServer: Warning: Can't find file '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.10.21-09.24.45:645][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.24.45:646][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
+[2019.10.21-09.24.45:646][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.001
+[2019.10.21-09.24.45:768][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-09.24.45:776][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-09.24.45:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-09.24.45:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-09.24.45:797][  0]LogCollectionManager: Loaded 0 collections in 0.001905 seconds
+[2019.10.21-09.24.45:837][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Collections/' took 0.01s
+[2019.10.21-09.24.45:837][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Content/Developers/ellan/Collections/' took 0.01s
+[2019.10.21-09.24.45:837][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ellan/Documents/GitHub/3D-Platformer/PlatformerTask/Content/Collections/' took 0.01s
+[2019.10.21-09.24.45:838][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.21-09.24.45:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2732 classes and 659 folders.
+[2019.10.21-09.24.45:855][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.21-09.24.45:857][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:858][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:859][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:860][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:860][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:864][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:864][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:865][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:866][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:866][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:867][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.21-09.24.45:915][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.21-09.24.45:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.10.21-09.24.46:031][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.21-09.24.46:031][  0]LogLoad: (Engine Initialization) Total time: 8.92 seconds
+[2019.10.21-09.24.46:031][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.21-09.24.46:070][  0]LogAssetRegistry: Asset discovery search completed in 4.5276 seconds
+[2019.10.21-09.24.46:072][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.10.21-09.24.46:072][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.10.21-09.24.46:074][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.21-09.24.46:083][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.21-09.24.46:085][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.21-09.24.46:090][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.21-09.24.46:317][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.21-09.24.46:335][  1]LogRenderer: Reallocating scene render targets to support 568x400 Format 10 NumSamples 1 (Frame:1).
+[2019.10.21-09.24.52:007][411]LogRenderer: Reallocating scene render targets to support 596x400 Format 10 NumSamples 1 (Frame:413).
+[2019.10.21-09.24.52:064][411]LogRenderer: Reallocating scene render targets to support 624x400 Format 10 NumSamples 1 (Frame:414).
+[2019.10.21-09.24.52:165][411]LogRenderer: Reallocating scene render targets to support 628x400 Format 10 NumSamples 1 (Frame:416).
+[2019.10.21-09.25.44:591][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-09.33.38:292][363]LogSlate: Window 'Save Level As' being destroyed
+[2019.10.21-09.33.38:313][363]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.21-09.33.38:351][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_1" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.21-09.33.38:395][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.10.21-09.33.38:406][363]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1F15C350D4FAAE09F13D9D79526D1899A.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap'
+[2019.10.21-09.33.38:468][363]LogFileHelpers: Saving map 'Level_1' took 0.162
+[2019.10.21-09.33.49:160][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_1" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.21-09.33.49:195][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.10.21-09.33.49:213][621]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_10BBA8E86485E88E7992CCD99F15FE6F2.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap'
+[2019.10.21-09.34.46:567][298]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.10.21-09.34.46:595][298]LogAssetEditorManager: Opening Asset editor for World /Game/__MyContent/Levels/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.10.21-09.34.46:627][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.10.21-09.34.46:628][298]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Levels/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.34.46:628][298]LightingResults: New page: Lighting Build
+[2019.10.21-09.34.46:631][298]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2019.10.21-09.34.46:631][298]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.10.21-09.34.46:632][298]MapCheck: New page: Map Check
+[2019.10.21-09.34.46:632][298]LightingResults: New page: Lighting Build
+[2019.10.21-09.34.46:662][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.10.21-09.34.46:817][298]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.34.46:854][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.10.21-09.34.46:882][298]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.34.46:882][298]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.149ms to complete.
+[2019.10.21-09.34.46:882][298]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.254
+[2019.10.21-09.34.48:977][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.10.21-09.34.49:429][508]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/ThirdPersonExampleMapA2EAE4FD4D6123204D06CFB96CA3CB9F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Levels/ThirdPersonExampleMap.umap'
+[2019.10.21-09.34.50:264][508]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/ThirdPersonExampleMap_BuiltDataF12D21DB49554F22D47C93A0F1852D41.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Levels/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.10.21-09.34.53:068][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.10.21-09.34.53:487][813]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/ThirdPersonExampleMapB2995BEC40FD7C9E2E86D182FE4140AC.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Levels/ThirdPersonExampleMap.umap'
+[2019.10.21-09.34.54:027][813]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/ThirdPersonExampleMap_BuiltData09665C284AE0D825E191BBA467697493.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Levels/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.10.21-09.34.56:732][129]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2019.10.21-09.34.57:325][195]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.10.21-09.34.57:397][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-09.35.01:981][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-09.35.04:405][936]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.21-09.35.04:933][993]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-09.35.05:548][ 63]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.10.21-09.35.05:571][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-09.35.27:632][529]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.21-09.36.45:818][362]LogAIModule: Creating AISystem for world Level_1
+[2019.10.21-09.36.55:396][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.10.21-09.36.55:396][362]LogMetaData: Removing '/Game/MainMenu.MainMenu_C' ref from Metadata '/Game/Level_1.PackageMetaData'
+[2019.10.21-09.36.55:396][362]LogMetaData: Removing '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Level_1.PackageMetaData'
+[2019.10.21-09.36.55:396][362]LogMetaData: Removing '/Game/MainMenu.MainMenu:PersistentLevel.MainMenu.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Level_1.PackageMetaData'
+[2019.10.21-09.36.55:396][362]LogMetaData: Removing '/Game/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/Level_1.PackageMetaData'
+[2019.10.21-09.36.55:430][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.21-09.36.55:461][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.10.21-09.36.55:546][362]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MainMenu275F19064FC9C9FA38288DA4A333FCFB.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/MainMenu.umap'
+[2019.10.21-09.36.55:550][362]LogFileHelpers: Saving map 'MainMenu' took 0.120
+[2019.10.21-09.36.55:671][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.10.21-09.36.55:705][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.10.21-09.36.55:731][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.10.21-09.37.02:257][362]LogSlate: Window 'Save Level As' being destroyed
+[2019.10.21-09.37.05:106][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.10.21-09.37.05:198][362]LogAIModule: Creating AISystem for world Level_1
+[2019.10.21-09.37.05:215][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_1" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.21-09.37.05:261][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.10.21-09.37.05:674][362]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1CC2AF56E4559B39805E5E9A3F483EA33.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap'
+[2019.10.21-09.37.05:693][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1_BuiltData.uasset" SILENT=true
+[2019.10.21-09.37.06:198][362]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1_BuiltDataECFFEFC74D7A32F2711121920F077C68.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1_BuiltData.uasset'
+[2019.10.21-09.37.06:207][362]LogFileHelpers: Saving map 'Level_1' took 3.938
+[2019.10.21-09.37.06:207][362]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.37.06:228][362]LightingResults: New page: Lighting Build
+[2019.10.21-09.37.06:229][362]LoadErrors: New page: Loading map: Level_1.umap
+[2019.10.21-09.37.06:235][362]MapCheck: New page: Map Check
+[2019.10.21-09.37.06:235][362]LightingResults: New page: Lighting Build
+[2019.10.21-09.37.06:278][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.10.21-09.37.06:306][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.10.21-09.37.06:333][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.10.21-09.37.06:531][362]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.37.06:568][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.10.21-09.37.06:603][362]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.37.06:603][362]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2019.10.21-09.37.06:603][362]LogFileHelpers: Loading map 'Level_1' took 0.397
+[2019.10.21-09.37.25:966][573]LogAIModule: Creating AISystem for world Dead
+[2019.10.21-09.37.25:993][573]LogAIModule: Creating AISystem for world MainMenu
+[2019.10.21-09.37.26:111][573]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.10.21-09.37.26:132][573]LogAIModule: Creating AISystem for world Win
+[2019.10.21-09.37.26:440][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.10.21-09.37.26:440][573]LogMetaData: Removing '/Game/__MyContent/Maps/Dead.Dead_C' ref from Metadata '/Game/__MyContent/Levels/Dead.PackageMetaData'
+[2019.10.21-09.37.26:440][573]LogMetaData: Removing '/Game/__MyContent/Maps/Dead.Dead:PersistentLevel.Dead.EventGraph.K2Node_Event_0' ref from Metadata '/Game/__MyContent/Levels/Dead.PackageMetaData'
+[2019.10.21-09.37.26:440][573]LogMetaData: Removing '/Game/__MyContent/Maps/Dead.SKEL_Dead_C' ref from Metadata '/Game/__MyContent/Levels/Dead.PackageMetaData'
+[2019.10.21-09.37.26:556][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.10.21-09.37.26:556][573]LogMetaData: Removing '/Game/__MyContent/Maps/MainMenu.MainMenu_C' ref from Metadata '/Game/__MyContent/Levels/MainMenu.PackageMetaData'
+[2019.10.21-09.37.26:556][573]LogMetaData: Removing '/Game/__MyContent/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu.EventGraph.K2Node_Event_0' ref from Metadata '/Game/__MyContent/Levels/MainMenu.PackageMetaData'
+[2019.10.21-09.37.26:556][573]LogMetaData: Removing '/Game/__MyContent/Maps/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/__MyContent/Levels/MainMenu.PackageMetaData'
+[2019.10.21-09.37.26:678][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.10.21-09.37.26:678][573]LogMetaData: Removing '/Game/__MyContent/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/__MyContent/Levels/ThirdPersonExampleMap.PackageMetaData'
+[2019.10.21-09.37.26:679][573]LogMetaData: Removing '/Game/__MyContent/Maps/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/__MyContent/Levels/ThirdPersonExampleMap.PackageMetaData'
+[2019.10.21-09.37.26:793][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.10.21-09.37.26:793][573]LogMetaData: Removing '/Game/__MyContent/Maps/Win.Win_C' ref from Metadata '/Game/__MyContent/Levels/Win.PackageMetaData'
+[2019.10.21-09.37.26:793][573]LogMetaData: Removing '/Game/__MyContent/Maps/Win.Win:PersistentLevel.Win.EventGraph.K2Node_Event_0' ref from Metadata '/Game/__MyContent/Levels/Win.PackageMetaData'
+[2019.10.21-09.37.26:793][573]LogMetaData: Removing '/Game/__MyContent/Maps/Win.SKEL_Win_C' ref from Metadata '/Game/__MyContent/Levels/Win.PackageMetaData'
+[2019.10.21-09.37.27:325][573]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/ThirdPersonExampleMap_BuiltData451A6D81419A730F6CC8DE9FD69389BB.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.10.21-09.37.27:361][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.10.21-09.37.27:451][573]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/DeadE6864C7C4BBED763D3E821B09818AEC3.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Dead.umap'
+[2019.10.21-09.37.27:455][573]LogFileHelpers: Saving map 'Dead' took 0.124
+[2019.10.21-09.37.27:490][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.10.21-09.37.27:585][573]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MainMenuA91AD0384C47B2CC6A1DFDA0ABF30D00.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/MainMenu.umap'
+[2019.10.21-09.37.27:589][573]LogFileHelpers: Saving map 'MainMenu' took 0.132
+[2019.10.21-09.37.27:637][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2019.10.21-09.37.28:073][573]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/ThirdPersonExampleMap850B812A45025892D7DA03AF12220799.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/ThirdPersonExampleMap.umap'
+[2019.10.21-09.37.28:089][573]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.497
+[2019.10.21-09.37.28:092][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Win" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Win.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.21-09.37.28:124][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.10.21-09.37.28:216][573]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/WinAC45AFFF4AE0BC6263232EB591601A10.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Win.umap'
+[2019.10.21-09.37.28:220][573]LogFileHelpers: Saving map 'Win' took 0.129
+[2019.10.21-09.37.28:552][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.10.21-09.37.28:578][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.10.21-09.37.28:604][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.10.21-09.37.28:631][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.10.21-09.37.28:658][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.21-09.37.28:689][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.10.21-09.37.28:716][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.21-09.37.46:053][549]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (39.408 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.21-09.38.24:474][915]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.21-09.39.01:470][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_1" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.21-09.39.01:504][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.10.21-09.39.01:933][226]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1D033ECC64B25C930538D4C9BBD77569F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1.umap'
+[2019.10.21-09.39.01:968][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1_BuiltData.uasset" SILENT=true
+[2019.10.21-09.39.02:488][226]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1_BuiltData5F29DE2E4891CF9F21C6EF91BE79D5B4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/Level_1_BuiltData.uasset'
+[2019.10.21-09.39.07:930][865]LogAssetEditorManager: Opening Asset editor for World /Game/__MyContent/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.10.21-09.39.07:964][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.10.21-09.39.07:964][865]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.39.07:964][865]LightingResults: New page: Lighting Build
+[2019.10.21-09.39.07:965][865]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.10.21-09.39.07:967][865]MapCheck: New page: Map Check
+[2019.10.21-09.39.07:968][865]LightingResults: New page: Lighting Build
+[2019.10.21-09.39.08:010][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.10.21-09.39.08:040][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.10.21-09.39.08:067][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.10.21-09.39.08:096][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2019.10.21-09.39.08:122][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.10.21-09.39.08:337][865]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.39.08:376][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.10.21-09.39.08:404][865]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.39.08:404][865]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.151ms to complete.
+[2019.10.21-09.39.08:405][865]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.440
+[2019.10.21-09.39.18:901][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.10.21-09.39.18:901][ 56]LogMetaData: Removing '/Game/__MyContent/Maps/Level_1.Level_1_C' ref from Metadata '/Game/__MyContent/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2019.10.21-09.39.18:901][ 56]LogMetaData: Removing '/Game/__MyContent/Maps/Level_1.SKEL_Level_1_C' ref from Metadata '/Game/__MyContent/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2019.10.21-09.39.18:926][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2019.10.21-09.39.19:417][ 56]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1_BuiltData842D349D437527A216A3CA99953350FC.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1_BuiltData.uasset'
+[2019.10.21-09.39.19:452][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.10.21-09.39.19:886][ 56]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1F42434964F2364AA9796F5A017BBA4A9.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap'
+[2019.10.21-09.39.19:919][ 56]LogFileHelpers: Saving map 'Level_1' took 0.496
+[2019.10.21-09.39.20:093][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.10.21-09.39.20:120][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.10.21-09.39.20:152][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.10.21-09.39.20:177][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.21-09.39.36:500][931]LogAIModule: Creating AISystem for world MainMenu
+[2019.10.21-09.39.36:502][931]LogAssetEditorManager: Opening Asset editor for World /Game/__MyContent/Maps/MainMenu.MainMenu
+[2019.10.21-09.39.36:532][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.10.21-09.39.36:532][931]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.39.36:532][931]LightingResults: New page: Lighting Build
+[2019.10.21-09.39.36:533][931]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.10.21-09.39.36:535][931]MapCheck: New page: Map Check
+[2019.10.21-09.39.36:535][931]LightingResults: New page: Lighting Build
+[2019.10.21-09.39.36:573][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.10.21-09.39.36:683][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.39.36:711][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.10.21-09.39.36:742][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.39.36:742][931]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.129ms to complete.
+[2019.10.21-09.39.36:742][931]LogFileHelpers: Loading map 'MainMenu' took 0.211
+[2019.10.21-09.39.39:499][236]LogAIModule: Creating AISystem for world Level_1
+[2019.10.21-09.39.39:520][236]LogAssetEditorManager: Opening Asset editor for World /Game/__MyContent/Maps/Level_1.Level_1
+[2019.10.21-09.39.39:547][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.10.21-09.39.39:548][236]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.39.39:548][236]LightingResults: New page: Lighting Build
+[2019.10.21-09.39.39:549][236]LoadErrors: New page: Loading map: Level_1.umap
+[2019.10.21-09.39.39:549][236]MapCheck: New page: Map Check
+[2019.10.21-09.39.39:549][236]LightingResults: New page: Lighting Build
+[2019.10.21-09.39.39:577][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.10.21-09.39.39:900][236]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.39.39:938][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2019.10.21-09.39.39:966][236]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.39.39:966][236]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.147ms to complete.
+[2019.10.21-09.39.39:966][236]LogFileHelpers: Loading map 'Level_1' took 0.418
+[2019.10.21-09.39.40:846][328]LogAssetEditorManager: Opening Asset editor for MapBuildDataRegistry /Game/__MyContent/Maps/Level_1_BuiltData.Level_1_BuiltData
+[2019.10.21-09.39.42:707][492]LogSlate: Window 'Level_1_BuiltData' being destroyed
+[2019.10.21-09.39.42:713][492]LogSlate: Window 'Level_1_BuiltData' being destroyed
+[2019.10.21-09.40.40:519][358]Cmd: MAP CHECK
+[2019.10.21-09.40.40:520][358]MapCheck: New page: Level_1 - 22 Oct 2019 7:40:40 am
+[2019.10.21-09.40.40:526][358]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.606ms to complete.
+[2019.10.21-09.40.43:731][634]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-09.40.43:738][634]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-09.42.54:619][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.10.21-09.42.54:651][181]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibraryBB99B8D948ABCA5B61EC31978CF685A4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-09.42.54:775][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.10.21-09.42.54:809][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.10.21-09.42.54:834][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.21-09.42.57:533][456]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary
+[2019.10.21-09.42.57:842][456]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.10.21-09.42.58:269][456]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.21-09.43.01:752][747]LogSlate: Window 'MyFunctionLibrary' being destroyed
+[2019.10.21-09.47.32:177][526]BlueprintLog: New page: Compile MyFunctionLibrary
+[2019.10.21-09.47.32:217][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2019.10.21-09.47.32:901][601]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibraryDDCD82F64B3C808A766FFB9DB3A362A8.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-09.47.45:815][ 67]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/__MyContent/UI/Widget_StartScreen.Widget_StartScreen
+[2019.10.21-09.47.46:131][ 67]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.10.21-09.47.47:918][233]LogSlate: Took 0.003787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.21-09.48.02:252][900]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/__MyContent/UI/Widget_DeathScreen.Widget_DeathScreen
+[2019.10.21-09.48.11:392][882]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/__MyContent/UI/Widget_Controls.Widget_Controls
+[2019.10.21-09.48.17:783][554]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/__MyContent/UI/Widget_Win.Widget_Win
+[2019.10.21-09.48.32:194][161]LogAIModule: Creating AISystem for world MainMenu
+[2019.10.21-09.48.32:197][161]LogAssetEditorManager: Opening Asset editor for World /Game/__MyContent/Maps/MainMenu.MainMenu
+[2019.10.21-09.48.32:269][161]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2019.10.21-09.48.33:828][161]LogSlate: Window 'Save Content' being destroyed
+[2019.10.21-09.48.33:857][161]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibraryBA38CB5B459D032A2C68EE8F4FD34022.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-09.48.33:862][161]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.48.33:862][161]LightingResults: New page: Lighting Build
+[2019.10.21-09.48.33:863][161]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.10.21-09.48.33:866][161]MapCheck: New page: Map Check
+[2019.10.21-09.48.33:866][161]LightingResults: New page: Lighting Build
+[2019.10.21-09.48.33:924][161]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2019.10.21-09.48.34:156][161]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.48.34:196][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.10.21-09.48.34:226][161]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.48.34:227][161]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2019.10.21-09.48.34:227][161]LogFileHelpers: Loading map 'MainMenu' took 0.365
+[2019.10.21-09.48.37:879][568]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/__MyContent/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2019.10.21-09.48.44:880][335]LogAIModule: Creating AISystem for world Level_1
+[2019.10.21-09.48.44:928][335]LogAssetEditorManager: Opening Asset editor for World /Game/__MyContent/Maps/Level_1.Level_1
+[2019.10.21-09.48.44:967][335]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.10.21-09.48.44:968][335]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-09.48.44:968][335]LightingResults: New page: Lighting Build
+[2019.10.21-09.48.44:968][335]LoadErrors: New page: Loading map: Level_1.umap
+[2019.10.21-09.48.44:969][335]MapCheck: New page: Map Check
+[2019.10.21-09.48.44:969][335]LightingResults: New page: Lighting Build
+[2019.10.21-09.48.45:003][335]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.10.21-09.48.45:495][335]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-09.48.45:542][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.10.21-09.48.45:572][335]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-09.48.45:572][335]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.144ms to complete.
+[2019.10.21-09.48.45:572][335]LogFileHelpers: Loading map 'Level_1' took 0.605
+[2019.10.21-09.52.13:298][209]BlueprintLog: New page: Compile MyFunctionLibrary
+[2019.10.21-09.52.13:346][209]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.10.21-09.52.14:258][311]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibraryF439978447A739AF84828997A957B745.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-09.52.22:363][124]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1
+[2019.10.21-09.53.19:610][826]BlueprintLog: New page: Compile Level_1
+[2019.10.21-09.53.19:853][826]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2019.10.21-09.53.20:191][854]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2019.10.21-09.53.20:707][854]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_18D63319046D619FA0B2668B975BB3A29.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap'
+[2019.10.21-09.53.20:741][854]LogFileHelpers: Saving map 'Level_1' took 0.614
+[2019.10.21-09.53.38:311][389]LogRenderer: Reallocating scene render targets to support 644x400 Format 10 NumSamples 1 (Frame:731).
+[2019.10.21-09.53.38:391][390]LogRenderer: Reallocating scene render targets to support 664x400 Format 10 NumSamples 1 (Frame:733).
+[2019.10.21-09.53.38:457][391]LogRenderer: Reallocating scene render targets to support 680x400 Format 10 NumSamples 1 (Frame:735).
+[2019.10.21-09.53.38:503][392]LogRenderer: Reallocating scene render targets to support 704x400 Format 10 NumSamples 1 (Frame:737).
+[2019.10.21-09.53.38:550][393]LogRenderer: Reallocating scene render targets to support 716x400 Format 10 NumSamples 1 (Frame:739).
+[2019.10.21-09.53.38:672][396]LogRenderer: Reallocating scene render targets to support 720x400 Format 10 NumSamples 1 (Frame:745).
+[2019.10.21-09.53.38:723][397]LogRenderer: Reallocating scene render targets to support 724x400 Format 10 NumSamples 1 (Frame:747).
+[2019.10.21-09.53.49:433][276]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.21-09.54.05:914][951]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.21-09.54.27:828][181]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.21-09.54.32:917][771]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.21-09.54.52:209][ 32]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/MyGameMode.MyGameMode
+[2019.10.21-09.54.52:628][ 33]LogRenderer: Reallocating scene render targets to support 724x524 Format 10 NumSamples 1 (Frame:1).
+[2019.10.21-09.55.47:203][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-09.55.50:737][ 62]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-09.55.52:974][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-09.56.07:147][136]LogEditorViewport: Clicking on Actor (LMB): MyGameManager_C (MyGameManager)
+[2019.10.21-09.56.08:124][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-10.00.46:739][859]BlueprintLog: New page: Compile MyGameMode
+[2019.10.21-10.00.46:924][859]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.10.21-10.00.47:273][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/MyGameMode" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameMode.uasset" SILENT=true
+[2019.10.21-10.00.47:291][895]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameMode49522D844D8F9AEF6106DFA3E2A6E260.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameMode.uasset'
+[2019.10.21-10.01.03:765][827]BlueprintLog: New page: Compile MyGameMode
+[2019.10.21-10.01.03:939][827]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.10.21-10.01.04:304][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/MyGameMode" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameMode.uasset" SILENT=true
+[2019.10.21-10.01.04:328][866]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameModeABF58919479FF239B6A764B3973E2F13.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameMode.uasset'
+[2019.10.21-10.01.17:074][ 48]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/__MyContent/Blueprints/MyGameManager.MyGameManager
+[2019.10.21-10.01.58:727][959]LogSlate: Took 0.005466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.10.21-10.04.43:864][359]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.10.21-10.04.44:398][359]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1_Auto1B770636347EE1021DB555BA2ACCF3A5E.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto1.umap'
+[2019.10.21-10.04.44:402][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.582
+[2019.10.21-10.04.44:402][359]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.582
+[2019.10.21-10.04.44:405][359]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/MyGameManager] ([1] browsable assets)...
+[2019.10.21-10.04.44:405][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/MyGameManager]
+[2019.10.21-10.04.44:419][359]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManager_Auto1A7F8F25D4295D590612469BC8BECA0F5.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Autosaves/Game/__MyContent/Blueprints/MyGameManager_Auto1.uasset'
+[2019.10.21-10.04.44:420][359]LogFileHelpers: Auto-saving content packages took 0.016
+[2019.10.21-10.08.12:668][208]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.08.12:853][208]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.10.21-10.08.13:144][236]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManagerC0E3EA76461B0443FCB2E4A7829D4675.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.10.48:356][642]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.10.48:356][642]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2771.24] Compile of MyFunctionLibrary failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.11.00:049][974]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.11.00:049][974]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2782.94] Compile of MyFunctionLibrary failed. 1 Fatal Issue(s) 0 Warning(s) [in 0 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.11.49:792][585]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.11.49:792][585]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2832.68] Compile of MyFunctionLibrary failed. 1 Fatal Issue(s) 0 Warning(s) [in 0 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.11.56:093][962]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.11.56:093][962]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2838.98] Compile of MyFunctionLibrary failed. 1 Fatal Issue(s) 0 Warning(s) [in 0 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.12.04:737][478]BlueprintLog: New page: Compile MyFunctionLibrary
+[2019.10.21-10.12.04:738][478]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.12.04:739][478]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.12.04:788][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.10.21-10.12.04:795][478]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2847.68] Compile of MyFunctionLibrary failed. 2 Fatal Issue(s) 0 Warning(s) [in 58 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.12.05:300][505]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibrary7D72A3AA4C88EB463B26FDBE05B138E1.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-10.13.44:822][ 61]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.13.44:822][ 61]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2947.71] Compile of MyFunctionLibrary failed. 1 Fatal Issue(s) 0 Warning(s) [in 0 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.13.46:624][169]BlueprintLog: New page: Compile MyFunctionLibrary
+[2019.10.21-10.13.46:625][169]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.13.46:629][169]LogBlueprint: Error: [Compiler MyFunctionLibrary] The variable NewVar_0 cannot be declared in FunctionLibrary  MyFunctionLibrary
+[2019.10.21-10.13.46:826][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.10.21-10.13.46:835][169]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2949.72] Compile of MyFunctionLibrary failed. 2 Fatal Issue(s) 0 Warning(s) [in 210 ms] (/Game/__MyContent/Blueprints/MyFunctionLibrary.MyFunctionLibrary)
+[2019.10.21-10.13.47:236][190]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibrary5C7E47F6483B7AA5DCCA339EABDCAE9E.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-10.14.11:968][661]BlueprintLog: New page: Compile Level_1
+[2019.10.21-10.14.11:972][661]LogBlueprint: Warning: [Compiler PersistentLevel.Level_1] Could not find the function 'Init' called from  Init
+[2019.10.21-10.14.12:163][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.10.21-10.14.12:169][661]LogBlueprint: Warning: [Compiler PersistentLevel.Level_1] [2975.06] Compile of PersistentLevel.Level_1 successful, but with 1 Warning(s) [in 199 ms] (/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1)
+[2019.10.21-10.14.12:621][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.10.21-10.14.12:637][683]LogBlueprint: Warning: [Compiler PersistentLevel.Level_1] Could not find the function 'Init' called from  Init
+[2019.10.21-10.14.12:638][683]LogBlueprint: Warning: [Compiler PersistentLevel.Level_1] [2975.52] Compile of PersistentLevel.Level_1 successful, but with 1 Warning(s) [in 3 ms] (/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1)
+[2019.10.21-10.14.13:170][683]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1D91FE731466E425ACEEDFA9FFD048C7C.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap'
+[2019.10.21-10.14.13:208][683]LogFileHelpers: Saving map 'Level_1' took 0.635
+[2019.10.21-10.14.55:597][918]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.14.55:790][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.10.21-10.14.56:187][938]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManagerD8D817E6490E0CFF4F9673ACCCDF1CE4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.14.58:435][ 72]BlueprintLog: New page: Compile Level_1
+[2019.10.21-10.14.58:629][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.10.21-10.14.59:097][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.10.21-10.14.59:606][ 95]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1EAFB97BA4362EBE4AE1160B8BBD27C11.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap'
+[2019.10.21-10.14.59:640][ 95]LogFileHelpers: Saving map 'Level_1' took 0.590
+[2019.10.21-10.15.25:702][521]BlueprintLog: New page: Compile MyFunctionLibrary
+[2019.10.21-10.15.25:750][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.10.21-10.15.26:247][548]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibrary074987CE48431F9340F432B52C920791.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-10.15.40:372][183]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.15.40:573][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.10.21-10.15.40:925][200]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManager17B10EC34C42C43F23447F92AAEE5B43.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.16.16:154][580]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.16.16:365][580]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.10.21-10.16.16:688][595]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManager180E668446312D46260370B8519946D7.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:Move Platform' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:StaticMesh' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:513][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:Spline' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.SKEL_BP_AutomaticMovingPlatform_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C:Move Platform' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C:StaticMesh' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C:Spline' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:514][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.BP_AutomaticMovingPlatform_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_AutomaticMovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:ReceiveTick' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:Start Platform' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:531][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.SKEL_BP_DamageFloor_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:532][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor_C:Start Platform' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:532][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_DamageFloor.BP_DamageFloor_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_DamageFloor.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame:EventGraph.K2Node_Event_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame:EventGraph.K2Node_Event_1' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame:EventGraph.K2Node_Event_2' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:ReceiveTick' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:TextRender' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.SKEL_BP_EndGame_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame_C:TextRender' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:549][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_EndGame.BP_EndGame_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_EndGame.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.BP_KillZone_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:ReceiveTick' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.SKEL_BP_KillZone_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.BP_KillZone_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:564][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_KillZone.BP_KillZone_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_KillZone.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.BP_LaunchPad:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.BP_LaunchPad_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.SKEL_BP_LaunchPad_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.SKEL_BP_LaunchPad_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.SKEL_BP_LaunchPad_C:Cube' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.SKEL_BP_LaunchPad_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.SKEL_BP_LaunchPad_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.SKEL_BP_LaunchPad_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.BP_LaunchPad_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.BP_LaunchPad_C:Cube' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:583][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_LaunchPad.BP_LaunchPad_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_LaunchPad.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:Move Platform' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:StaticMesh' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:Spline' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.SKEL_BP_MovingPlatform_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C:Move Platform' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C:StaticMesh' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C:Box' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C:Spline' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:599][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_MovingPlatform.BP_MovingPlatform_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_MovingPlatform.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky:EventGraph.K2Node_Event_0' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky:EventGraph.K2Node_Event_2' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:ReceiveTick' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:Sky Dome' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:Sun' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:Sun Angle' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:One Hour' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:One Day' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:Day Length in Min' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:Hour' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C:UserConstructionScript' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.SKEL_BP_Sky_C' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:615][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:Sky Dome' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:Sun' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:Sun Angle' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:One Hour' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:One Day' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:Day Length in Min' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:Hour' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:DefaultSceneRoot' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:ReceiveBeginPlay' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:616][662]LogMetaData: Removing '/Game/__MyContent/Blueprints/Other/BP_Sky.BP_Sky_C:ReceiveTick' ref from Metadata '/Game/__MyContent/Blueprints/BP_Sky.PackageMetaData'
+[2019.10.21-10.17.51:720][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_AutomaticMovingPlatform891DA2774FB0134FEEF5549A6F9F7054.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_AutomaticMovingPlatform.uasset'
+[2019.10.21-10.17.51:743][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_AutomaticMovingPlatformC9015937484A0922EB7600AD0E419700.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_AutomaticMovingPlatform.uasset'
+[2019.10.21-10.17.51:802][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_DamageFloorFB41388945B4374F74715D94B80703F5.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_DamageFloor.uasset'
+[2019.10.21-10.17.51:824][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_DamageFloorE37DF2FD4BA5850644CD3D99BC793975.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_DamageFloor.uasset'
+[2019.10.21-10.17.51:855][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_EndGame6EC448314CFDFA4C75837DBA26FB9EC0.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_EndGame.uasset'
+[2019.10.21-10.17.51:864][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_EndGame" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_EndGame.uasset" SILENT=true
+[2019.10.21-10.17.51:879][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_EndGameEA0F74544C03AA39F818E48D56450FEA.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_EndGame.uasset'
+[2019.10.21-10.17.51:906][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_KillZone2030C44241607F66FE6831909EC96781.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_KillZone.uasset'
+[2019.10.21-10.17.51:918][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_KillZone" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_KillZone.uasset" SILENT=true
+[2019.10.21-10.17.51:933][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_KillZoneE2823FB2434B30AC824C06ADB005C2F9.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_KillZone.uasset'
+[2019.10.21-10.17.51:983][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_LaunchPad82D311094F39FA0D5DD76CB0E810800F.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_LaunchPad.uasset'
+[2019.10.21-10.17.51:991][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/BP_LaunchPad" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_LaunchPad.uasset" SILENT=true
+[2019.10.21-10.17.52:006][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_LaunchPad776F983649F06BC496049B85055B56CA.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_LaunchPad.uasset'
+[2019.10.21-10.17.52:078][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_MovingPlatform742FF50C40D3A7D231D27D9B6001F63A.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_MovingPlatform.uasset'
+[2019.10.21-10.17.52:100][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_MovingPlatformC7510DD04BA9968F63D93FBAAC914804.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/BP_MovingPlatform.uasset'
+[2019.10.21-10.17.52:108][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/Other/BP_Sky" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_Sky.uasset" SILENT=true
+[2019.10.21-10.17.52:139][662]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_Sky1DDFE06A47934C23C0C7379208F05B22.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/Other/BP_Sky.uasset'
+[2019.10.21-10.17.52:327][662]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.10.21-10.17.52:372][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.10.21-10.17.52:406][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.10.21-10.18.32:308][287]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/__MyContent/Blueprints/MyGameStates.MyGameStates
+[2019.10.21-10.19.03:388][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/__MyContent/Blueprints/MyGameStates" FILE="../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameStates.uasset" SILENT=true
+[2019.10.21-10.19.03:395][137]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameStatesEA4CA88A4960F6F4AF0CAAA3CC308B55.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameStates.uasset'
+[2019.10.21-10.25.32:883][189]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.10.21-10.25.33:403][189]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1_Auto2D7179636466B9F159EFA0DB711AF1F44.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Autosaves/Game/__MyContent/Maps/Level_1_Auto2.umap'
+[2019.10.21-10.25.33:408][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/__MyContent/Maps/Level_1' took 0.574
+[2019.10.21-10.25.33:408][189]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.574
+[2019.10.21-10.25.33:410][189]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/MyGameManager] ([1] browsable assets)...
+[2019.10.21-10.25.33:411][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/MyGameManager]
+[2019.10.21-10.25.33:434][189]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManager_Auto264EFF5614DEE9EC87B21F39903FF36DC.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Autosaves/Game/__MyContent/Blueprints/MyGameManager_Auto2.uasset'
+[2019.10.21-10.25.33:436][189]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__MyContent/Blueprints/Other/BP_DamageFloor] ([1] browsable assets)...
+[2019.10.21-10.25.33:436][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/__MyContent/Blueprints/Other/BP_DamageFloor]
+[2019.10.21-10.25.33:466][189]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/BP_DamageFloor_Auto290654558430446DD33BE38B96B168C14.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Autosaves/Game/__MyContent/Blueprints/Other/BP_DamageFloor_Auto2.uasset'
+[2019.10.21-10.25.33:467][189]LogFileHelpers: Auto-saving content packages took 0.057
+[2019.10.21-10.27.05:164][500]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.27.05:363][500]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.10.21-10.27.05:735][518]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManager199557C144BEA1AE3CF9D4A117E16940.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.27.46:057][572]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.27.46:253][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.10.21-10.27.46:593][588]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManagerC7F933C9465EC1F1314D12B49D46D94A.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.29.08:905][148]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.29.09:105][148]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.10.21-10.29.09:464][165]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManager23639AA643E1DD750F4FB3BFE2FC88B7.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.31.52:634][250]BlueprintLog: New page: Compile Level_1
+[2019.10.21-10.31.52:813][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.10.21-10.31.53:478][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.10.21-10.31.53:985][285]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/Level_1710401524ECB718D9638AFA81F747B75.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Maps/Level_1.umap'
+[2019.10.21-10.31.54:019][285]LogFileHelpers: Saving map 'Level_1' took 0.583
+[2019.10.21-10.32.29:524][385]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.21-10.32.55:729][941]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.21-10.34.42:870][358]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.34.43:068][358]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.10.21-10.34.43:323][372]BlueprintLog: New page: Compile MyGameManager
+[2019.10.21-10.34.43:515][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.10.21-10.34.43:965][394]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyGameManagerC5A0ECD3488552C880DB5E8DC971FAF4.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyGameManager.uasset'
+[2019.10.21-10.34.49:921][748]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.10.21-10.34.49:949][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.10.21-10.34.49:949][748]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.10.21-10.34.49:949][748]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.10.21-10.34.49:993][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.10.21-10.34.49:993][748]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2019.10.21-10.34.49:993][748]PIE: New page: PIE session: Level_1 (22 Oct 2019 8:34:49 am)
+[2019.10.21-10.34.50:007][748]LogPlayLevel: Creating play world package: /Game/__MyContent/Maps/UEDPIE_0_Level_1
+[2019.10.21-10.34.50:066][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058331s)
+[2019.10.21-10.34.50:067][748]LogAIModule: Creating AISystem for world Level_1
+[2019.10.21-10.34.50:067][748]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2019.10.21-10.34.50:067][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/__MyContent/Maps/Level_1.Level_1 to /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 (0.059801s)
+[2019.10.21-10.34.50:110][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.10.21-10.34.50:124][748]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-10.34.50:244][748]LogInit: FAudioDevice initialized.
+[2019.10.21-10.34.50:256][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-10.34.50:378][748]LogLoad: Game class is 'MyGameMode_C'
+[2019.10.21-10.34.50:386][748]LogWorld: Bringing World /Game/__MyContent/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2019.10.21-21.34.50
+[2019.10.21-10.34.50:390][748]LogWorld: Bringing up level for play took: 0.010630
+[2019.10.21-10.34.50:412][748]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.10.21-10.34.50:418][748]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.10.21-10.34.50:419][748]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.10.21-10.34.50:426][748]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2019.10.21-10.34.50:438][748]PIE: Play in editor start time for /Game/__MyContent/Maps/UEDPIE_0_Level_1 0.035
+[2019.10.21-10.34.50:439][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.10.21-10.34.50:847][749]LogRenderer: Reallocating scene render targets to support 1016x544 Format 10 NumSamples 1 (Frame:1).
+[2019.10.21-10.34.50:847][749]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.071342 > MaxSimulationTimeStep (0.050) for 'AISquare', movement 'Walking'
+[2019.10.21-10.34.57:076][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.10.21-10.34.57:076][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-10.34.57:094][123]LogSlate: Window 'PlatformerTask Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.10.21-10.34.57:138][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-10.34.57:139][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/__MyContent/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/__MyContent/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2019.10.21-10.34.57:271][123]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2019.10.21-10.34.57:380][124]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.10.21-10.35.01:836][388]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-10.35.01:842][388]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-10.35.57:904][994]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.21-10.37.07:843][ 56]BlueprintLog: New page: Compile MyFunctionLibrary
+[2019.10.21-10.37.07:904][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2019.10.21-10.37.08:302][ 76]LogSavePackage: Moving '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Saved/MyFunctionLibrary419AAEBB41CE5F13D6AA9E8F970E22D9.tmp' to '../../../../../Documents/GitHub/3D-Platformer/PlatformerTask/Content/__MyContent/Blueprints/MyFunctionLibrary.uasset'
+[2019.10.21-10.37.17:709][237]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/__MyContent/UI/Widget_Abandon.Widget_Abandon
+[2019.10.21-10.38.10:082][440]LogEditorTransaction: Undo Changed Anchors
+[2019.10.21-10.38.10:088][440]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.21-10.38.10:739][440]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.651 s
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: 
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2124]
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: 
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: Stack: 
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc92081639 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc910583b1 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9be44e85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9be66366 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9be52f0c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9beaac53 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9beeae98 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9be8929f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc90109188 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcb37171ea UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcb374743e UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9c62769e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffc9c616e41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcb36e1e66 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcb3748dcd UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcb373f1ce UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcf29cb55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcf29bef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcf29cd77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcf29bc090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffd10f163ed USER32.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffd10f15de2 USER32.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffcf29ce946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ff7f42a5d3e UE4Editor.exe!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ff7f42b554c UE4Editor.exe!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ff7f42b55ca UE4Editor.exe!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ff7f42c316c UE4Editor.exe!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ff7f42c5b8e UE4Editor.exe!UnknownFunction []
+[2019.10.21-10.38.10:739][440]LogOutputDevice: Error: [Callstack] 0x00007ffd11237bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.21-10.38.10:740][440]LogOutputDevice: Error: [Callstack] 0x00007ffd11dcced1 ntdll.dll!UnknownFunction []
+[2019.10.21-10.38.10:740][440]LogOutputDevice: Error: 
+[2019.10.21-10.38.10:750][440]LogStats:                SubmitErrorReport -  0.000 s
